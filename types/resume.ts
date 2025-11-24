@@ -20,6 +20,16 @@ export interface ResumeData {
     logoText?: string;
     logo?: string;
     description: string;
+    projects?: Array<{
+      company: string;
+      location?: string;
+      startDate?: string;
+      endDate?: string | null;
+      role?: string;
+      logoText?: string;
+      logo?: string;
+      description: string;
+    }>;
   }>;
   education: Array<{
     date: string;

@@ -52,9 +52,46 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                 </div>
               ) : null}
             </div>
-            <p className="text-[11px] text-gray-700 text-justify leading-snug whitespace-pre-line">
+            <p className="text-[10px] text-gray-600 mt-1 whitespace-pre-line">
               {job.description}
             </p>
+
+            {/* Nested Projects */}
+            {job.projects && (
+              <div className="mt-3 space-y-3 pl-3 border-l border-gray-300">
+                {job.projects.map((project, pIndex) => (
+                  <div key={pIndex} className="relative">
+                    <div className="flex justify-between items-start">
+                      <div>
+                        {project.startDate && (
+                          <p className="text-[9px] text-gray-500 mb-0.5">
+                            {formatPeriod(
+                              project.startDate,
+                              project.endDate,
+                              language
+                            )}
+                          </p>
+                        )}
+                        <h4 className="font-bold text-gray-800 text-xs">
+                          {project.company}{" "}
+                          {project.role ? `- ${project.role}` : ""}
+                        </h4>
+                      </div>
+                      {project.logo && (
+                        <img
+                          src={project.logo}
+                          alt={project.company}
+                          className="h-4 w-auto object-contain"
+                        />
+                      )}
+                    </div>
+                    <p className="text-[9px] text-gray-600 mt-0.5 whitespace-pre-line">
+                      {project.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </div>
