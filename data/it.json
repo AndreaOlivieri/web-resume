@@ -91,35 +91,99 @@
   "skills": [
     {
       "category": "Conoscenze del settore",
-      "items": "Sviluppo Web, Mobile e Software • Metodologie Agili • SCRUM • Object-Oriented Programming (OOP) • Algorithms • SQL • Architetture Microfront-end • TDD"
+      "items": [
+        "Sviluppo Web, Mobile e Software",
+        "Metodologie Agili",
+        "SCRUM",
+        "Object-Oriented Programming (OOP)",
+        "Algorithms",
+        "SQL",
+        "Architetture Microfront-end",
+        "TDD"
+      ]
     },
     {
       "category": "Sviluppo Mobile",
-      "items": "React Native • Expo"
+      "items": ["React Native", "Expo"]
     },
     {
       "category": "Sviluppo Web - Front-End",
-      "items": "HTML5 • CSS3 • SASS • SCSS • Bootstrap • Foundation • CSS-in-JS • Styled Components • Flexbox • Javascript • ES6 • Promise • Async Await • Typescript • React • Redux • Angular 9+ • RxJS • Vue • Vuex • JQuery • Next.js • AJAX • Webpack • Module Federation • JSON • Jest • Lerna/NX • Storybook"
+      "items": [
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "SCSS",
+        "Bootstrap",
+        "Foundation",
+        "CSS-in-JS",
+        "Styled Components",
+        "Flexbox",
+        "Javascript",
+        "ES6",
+        "Promise",
+        "Async Await",
+        "Typescript",
+        "React",
+        "Redux",
+        "Angular 9+",
+        "RxJS",
+        "Vue",
+        "Vuex",
+        "JQuery",
+        "Next.js",
+        "AJAX",
+        "Webpack",
+        "Module Federation",
+        "JSON",
+        "Jest",
+        "Lerna/NX",
+        "Storybook"
+      ]
     },
     {
       "category": "Sviluppo Web - Back-End",
-      "items": "Node.js • Express • GraphQL • REST API • Amazon Web Services (AWS) • Microsoft Azure • Heroku • Server Side Rendering"
+      "items": [
+        "Node.js",
+        "Express",
+        "GraphQL",
+        "REST API",
+        "Amazon Web Services (AWS)",
+        "Microsoft Azure",
+        "Heroku",
+        "Server Side Rendering"
+      ]
     },
     {
       "category": "Database",
-      "items": "PostgreSQL • MySQL"
+      "items": ["PostgreSQL", "MySQL"]
     },
     {
       "category": "Linguaggi di Programmazione",
-      "items": "Python • Ruby • Java"
+      "items": ["Python", "Ruby", "Java"]
     },
     {
       "category": "Soft Skills",
-      "items": "Problem Solving • Critical Thinking • Time Management • Teamwork • Self Learning • Analytical reasoning • Adaptability"
+      "items": [
+        "Problem Solving",
+        "Critical Thinking",
+        "Time Management",
+        "Teamwork",
+        "Self Learning",
+        "Analytical reasoning",
+        "Adaptability"
+      ]
     },
     {
       "category": "Strumenti di sviluppo",
-      "items": "Postman • Git/Gitlab • Visual Code • Miro • Figma • Chrome Dev Tools • Bash Shell"
+      "items": [
+        "Postman",
+        "Git/Gitlab",
+        "Visual Code",
+        "Miro",
+        "Figma",
+        "Chrome Dev Tools",
+        "Bash Shell"
+      ]
     }
   ],
   "languages": [

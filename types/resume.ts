@@ -28,7 +28,7 @@ export interface ResumeData {
   }>;
   skills: Array<{
     category: string;
-    items: string;
+    items: string[];
   }>;
   languages: Array<{
     name: string;

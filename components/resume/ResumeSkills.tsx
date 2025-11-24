@@ -18,7 +18,7 @@ export const ResumeSkills: React.FC<ResumeSkillsProps> = ({ skills, label }) => 
             <span className="font-bold text-gray-800 block">
               {skill.category}:
             </span>
-            <span className="text-gray-600">{skill.items}</span>
+            <span className="text-gray-600">{skill.items.join(" • ")}</span>
           </div>
         ))}
       </div>
