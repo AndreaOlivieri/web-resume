@@ -9,7 +9,7 @@ interface ResumeHeaderProps {
 export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ header }) => {
   return (
     <header className="flex items-start gap-6 mb-6">
-      <div className="w-32 h-32 bg-gray-200 rounded-md flex-shrink-0 overflow-hidden border border-gray-300">
+      <div className="w-52 h-52 bg-gray-200 rounded-md flex-shrink-0 overflow-hidden border border-gray-300">
         <img
           src="/assets/profile_image.jpeg"
           alt={header.name}
