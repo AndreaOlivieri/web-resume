@@ -7,7 +7,6 @@
       "location": "Roma, Italia",
       "email": "andrea.olivieri1991@gmail.com",
       "phone": "+39 333 3488 893",
-      "license": "Patente B, Automunito",
       "github": "github.com/AndreaOlivieri"
     }
   },
@@ -70,13 +69,41 @@
     },
     {
       "company": "Accenture",
-      "location": "Via Sciangai 53, 00144, Roma, Italia",
+      "location": "Via Sciangai 53, 00144, Rome, Italy",
       "startDate": "2019-10",
       "endDate": "2021-02",
-      "role": "Application Development Senior Analyst | Esperto Frontend | Ingegnere Informatico",
+      "role": "Application Development Senior Analyst | Frontend Expert | Computer Engineer",
       "logoText": "accenture",
       "logo": "/assets/accenture.png",
-      "description": "Ho lavorato con diversi clienti:\n• Skoda, Leonardo s.p.a., e-GEOS, MSC Cruises."
+      "description": "I worked with several clients:",
+      "projects": [
+        {
+          "company": "Skoda",
+          "role": "Frontend Developer",
+          "logoText": "Skoda",
+          "logo": "/assets/skoda.png",
+          "description": "Ho lavorato come Esperto Frontend nell'e-commerce di Škoda, contribuendo allo sviluppo di una piattaforma web all'avanguardia. Il mio ruolo prevedeva la creazione di un'interfaccia coinvolgente e intuitiva per migliorare l'esperienza utente complessiva. Gli strumenti principali di sviluppo utilizzati in questo progetto: ReactJs e Redux, Typescript, Javascript ES6, Webpack, Module Federation Plugin, HTML 5, CSS 3, Git, Lerna/Nx"
+        },
+        {
+          "company": "Leonardo s.p.a.",
+          "role": "Frontend Developer",
+          "logoText": "Leonardo s.p.a.",
+          "logo": "/assets/leonardo.png",
+          "description": "Ho lavorato come Frontend developer nel progetto Euronaval, contribuendo allo sviluppo della piattaforma web. Il mio ruolo prevedeva la creazione di un'interfaccia coinvolgente e intuitiva per migliorare l'esperienza utente complessiva. Gli strumenti principali di sviluppo utilizzati in questo progetto: ReactJs e Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, Git"
+        },
+        {
+          "company": "e-GEOS",
+          "logoText": "e-GEOS",
+          "logo": "/assets/egeos.png",
+          "description": "Ho lavorato come Esperto Frontend nel progetto e-GEO, contribuendo alla progettazione, costruzione e sviluppo di una piattaforma web all'avanguardia chiamata CLEOS. Gli strumenti principali di sviluppo utilizzati in questo progetto: ReactJs e Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, Git"
+        },
+        {
+          "company": "MSC Cruises",
+          "logoText": "MSC Cruises",
+          "logo": "/assets/msc_crociere.jpg",
+          "description": "Ho lavorato come Frontend developer sul sito web di MSC Crociere, contribuendo allo sviluppo della piattaforma web. Gli strumenti principali di sviluppo utilizzati in questo progetto: ReactJs e Redux, Angular 10+, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git"
+        }
+      ]
     }
   ],
   "education": [

@@ -7,7 +7,6 @@
       "location": "Rome, Italy",
       "email": "andrea.olivieri1991@gmail.com",
       "phone": "+39 333 3488 893",
-      "license": "Driving License B",
       "github": "github.com/AndreaOlivieri"
     }
   },
@@ -76,7 +75,35 @@
       "role": "Application Development Senior Analyst | Frontend Expert | Computer Engineer",
       "logoText": "accenture",
       "logo": "/assets/accenture.png",
-      "description": "I worked with several clients:\n• Skoda, Leonardo s.p.a., e-GEOS, MSC Cruises."
+      "description": "I worked with several clients:",
+      "projects": [
+        {
+          "company": "Skoda",
+          "role": "Frontend Developer",
+          "logoText": "Skoda",
+          "logo": "/assets/skoda.png",
+          "description": "I served as a Frontend Expert on the e-commerce of Škoda, contributing to the development of a cutting-edge web platform. My role involved crafting an engaging and user-friendly interface to elevate the overall user experience. The main development tools used in this project: ReactJs e Redux, Typescript, Javascript ES6, Webpack, Module Federation Plugin, HTML 5, CSS 3, Git, Lerna/Nx"
+        },
+        {
+          "company": "Leonardo s.p.a.",
+          "role": "Frontend Developer",
+          "logoText": "Leonardo s.p.a.",
+          "logo": "/assets/leonardo.png",
+          "description": "I served as a Frontend developer on the Euronaval project, contributing to the development of the web platform. My role involved crafting an engaging and user-friendly interface to elevate the overall user experience. The main development tools used in this project: ReactJs e Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, Git"
+        },
+        {
+          "company": "e-GEOS",
+          "logoText": "e-GEOS",
+          "logo": "/assets/egeos.png",
+          "description": "I served as a Frontend Expert on the e-GEO project, contributing to design, build and development of a cutting-edge web platform called CLEOS. The main development tools used in this project: ReactJs e Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, Git"
+        },
+        {
+          "company": "MSC Cruises",
+          "logoText": "MSC Cruises",
+          "logo": "/assets/msc_crociere.jpg",
+          "description": "I served as a Frontend developer on the website of MSC Crociere, contributing to the development of the web platform. The main development tools used in this project: ReactJs e Redux, Angular 10+, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git"
+        }
+      ]
     }
   ],
   "education": [
