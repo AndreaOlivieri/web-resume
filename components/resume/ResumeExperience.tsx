@@ -78,11 +78,13 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                         </h4>
                       </div>
                       {project.logo && (
-                        <img
-                          src={project.logo}
-                          alt={project.company}
-                          className="h-4 w-auto object-contain"
-                        />
+                        <div className="w-16 h-8 flex items-center justify-center ml-2">
+                          <img
+                            src={project.logo}
+                            alt={project.company}
+                            className="max-w-full max-h-full object-contain"
+                          />
+                        </div>
                       )}
                     </div>
                     <p className="text-[9px] text-gray-600 mt-0.5 whitespace-pre-line">
