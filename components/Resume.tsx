@@ -20,6 +20,7 @@ interface ResumeData {
     period?: string;
     role?: string;
     logoText?: string;
+    logo?: string;
     description: string;
   }>;
   education: Array<{
@@ -83,7 +84,7 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(({ data }, ref) =>
         <header className="flex items-start gap-6 mb-6">
           <div className="w-32 h-32 bg-gray-200 rounded-md flex-shrink-0 overflow-hidden border border-gray-300">
             <img
-              src="/placeholder-profile.jpg"
+              src="/assets/profile_image.jpeg"
               alt={header.name}
               className="w-full h-full object-cover"
               onError={(e) => {
@@ -160,11 +161,19 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(({ data }, ref) =>
                       </p>
                     )}
                   </div>
-                  {job.logoText && (
+                  {job.logo ? (
+                    <div className="w-16 h-8 flex items-center justify-center ml-2">
+                      <img
+                        src={job.logo}
+                        alt={job.company}
+                        className="max-w-full max-h-full object-contain"
+                      />
+                    </div>
+                  ) : job.logoText ? (
                     <div className="w-16 h-8 bg-gray-100 flex items-center justify-center text-[10px] text-gray-400 border border-gray-200 ml-2">
                       {job.logoText}
                     </div>
-                  )}
+                  ) : null}
                 </div>
                 <p className="text-[11px] text-gray-700 text-justify leading-snug whitespace-pre-line">
                   {job.description}

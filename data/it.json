@@ -19,37 +19,44 @@
       "period": "Feb 2021 - Oggi (4 anni)",
       "role": "Tech Lead | Senior Consultant | Esperto Front-end (Ingegnere Informatico)",
       "logoText": "REPLY",
+      "logo": "/assets/open_reply.svg",
       "description": "Ho lavorato con diversi clienti:\n• Open Reply: Ho lavorato come Tech Lead su diversi PoC per Open Reply, contribuendo alla progettazione e allo sviluppo di applicazioni cross-platform innovative. Queste applicazioni si distinguono perché l'intera interfaccia utente è controllata da agenti AI. Le principali tecnologie utilizzate sono: Python, OpenAI, OpenSearch, React Native, Expo."
     },
     {
       "company": "PhotoSì",
       "role": "Frontend Developer",
       "logoText": "PhotoSì",
+      "logo": "/assets/photosi.svg",
       "description": "Ho lavorato al progetto PhotoSì come esperto Frontend, contribuendo allo sviluppo dell'editor di fotolibri del cliente per applicazioni mobile e web. Le principali tecnologie utilizzate in questo progetto sono: React Native, Expo, Typescript, Javascript."
     },
     {
       "company": "Church's",
       "logoText": "Church's",
+      "logo": "/assets/churchs.png",
       "description": "Ho lavorato al progetto Church's come esperto Frontend, contribuendo al miglioramento dell'esperienza utente del sito web di Church's. Le principali tecnologie utilizzate in questo progetto sono: Vue 3, Typescript, Javascript."
     },
     {
       "company": "Mediaset",
       "logoText": "MEDIASET",
+      "logo": "/assets/mediaset.png",
       "description": "Ho lavorato al progetto Mediaset come esperto Frontend, contribuendo allo sviluppo di una nuova applicazione Smart TV che consente agli utenti di guardare film, serie TV e canali live offerti da Mediaset. Le principali tecnologie utilizzate in questo progetto sono: React Native, Typescript, Javascript, Storybook."
     },
     {
       "company": "Unipol",
       "logoText": "Unipol",
+      "logo": "/assets/logo_unipol.svg",
       "description": "Ho lavorato al progetto UnipolSai come Tech Lead ed esperto Frontend, guidando la progettazione e lo sviluppo di una nuova architettura micro-frontend basata su Module Federation. Ho diretto un team dinamico di oltre 10 sviluppatori. Gli strumenti principali di sviluppo utilizzati in questo progetto sono: React.js e Redux, Angular 14, Typescript, Javascript ES6, Node.js, Express, Webpack, Module Federation Plugin, Jest, React Testing Library, HTML 5, CSS 3, CSS in JS, SCSS/SASS, Git, Lerna/Nx."
     },
     {
       "company": "British American Tobacco",
       "logoText": "BAT",
+      "logo": "/assets/bat.svg",
       "description": "Ho lavorato al progetto Vuse.com come esperto Frontend, contribuendo allo sviluppo di un'applicazione web per la gestione e l'utilizzo della sigaretta elettronica MyVuse, oltre alla creazione di un browser interattivo basato su tecnologia BLE. Le principali tecnologie utilizzate in questo progetto includono: React.js e Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
     },
     {
       "company": "Prada",
       "logoText": "PRADA",
+      "logo": "/assets/prada.png",
       "description": "Ho lavorato sui progetti e-commerce di Prada, Miu Miu e Car Shoe come esperto Frontend. Gli strumenti principali di sviluppo utilizzati in questo progetto sono: Typescript, Javascript ES6, jQuery, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
     },
     {
@@ -58,6 +65,7 @@
       "period": "Oct 2019 - Feb 2021 (1 anno)",
       "role": "Application Development Senior Analyst | Esperto Frontend | Ingegnere Informatico",
       "logoText": "accenture",
+      "logo": "/assets/accenture.png",
       "description": "Ho lavorato con diversi clienti:\n• Skoda, Leonardo s.p.a., e-GEOS, MSC Cruises."
     }
   ],

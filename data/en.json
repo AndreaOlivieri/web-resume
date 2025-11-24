@@ -19,37 +19,44 @@
       "period": "Feb 2021 - Present (4 years)",
       "role": "Tech Lead | Senior Consultant | Front-end Expert (Computer Engineer)",
       "logoText": "REPLY",
+      "logo": "/assets/open_reply.svg",
       "description": "I worked with several clients:\n• Open Reply: I worked as Tech Lead on several PoCs for Open Reply, contributing to the design and development of innovative cross-platform applications. These applications stand out because the entire user interface is controlled by AI agents. The main technologies used are: Python, OpenAI, OpenSearch, React Native, Expo."
     },
     {
       "company": "PhotoSì",
       "role": "Frontend Developer",
       "logoText": "PhotoSì",
+      "logo": "/assets/photosi.svg",
       "description": "I worked on the PhotoSì project as a Frontend expert, contributing to the development of the customer's photo book editor for mobile and web applications. The main technologies used in this project are: React Native, Expo, Typescript, Javascript."
     },
     {
       "company": "Church's",
       "logoText": "Church's",
+      "logo": "/assets/churchs.png",
       "description": "I worked on the Church's project as a Frontend expert, contributing to the improvement of the user experience of the Church's website. The main technologies used in this project are: Vue 3, Typescript, Javascript."
     },
     {
       "company": "Mediaset",
       "logoText": "MEDIASET",
+      "logo": "/assets/mediaset.png",
       "description": "I worked on the Mediaset project as a Frontend expert, contributing to the development of a new Smart TV application that allows users to watch movies, TV series and live channels offered by Mediaset. The main technologies used in this project are: React Native, Typescript, Javascript, Storybook."
     },
     {
       "company": "Unipol",
       "logoText": "Unipol",
+      "logo": "/assets/logo_unipol.svg",
       "description": "I worked on the UnipolSai project as Tech Lead and Frontend expert, leading the design and development of a new micro-frontend architecture based on Module Federation. I managed a dynamic team of over 10 developers. The main development tools used in this project are: React.js and Redux, Angular 14, Typescript, Javascript ES6, Node.js, Express, Webpack, Module Federation Plugin, Jest, React Testing Library, HTML 5, CSS 3, CSS in JS, SCSS/SASS, Git, Lerna/Nx."
     },
     {
       "company": "British American Tobacco",
       "logoText": "BAT",
+      "logo": "/assets/bat.svg",
       "description": "I worked on the Vuse.com project as a Frontend expert, contributing to the development of a web application for the management and use of the MyVuse electronic cigarette, as well as the creation of an interactive browser based on BLE technology. The main technologies used in this project include: React.js and Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
     },
     {
       "company": "Prada",
       "logoText": "PRADA",
+      "logo": "/assets/prada.png",
       "description": "I worked on the e-commerce projects of Prada, Miu Miu and Car Shoe as a Frontend expert. The main development tools used in this project are: Typescript, Javascript ES6, jQuery, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
     },
     {
@@ -58,6 +65,7 @@
       "period": "Oct 2019 - Feb 2021 (1 year)",
       "role": "Application Development Senior Analyst | Frontend Expert | Computer Engineer",
       "logoText": "accenture",
+      "logo": "/assets/accenture.png",
       "description": "I worked with several clients:\n• Skoda, Leonardo s.p.a., e-GEOS, MSC Cruises."
     }
   ],
