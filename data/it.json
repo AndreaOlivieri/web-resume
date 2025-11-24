@@ -108,37 +108,47 @@
       "role": "Full-Stack developer | Business in Cloud's software architect | Software Engineer",
       "logoText": "Social Academy s.r.l.",
       "logo": "/assets/social_academy.png",
-      "description": "I projected, developed, and tested the software components of Social Academy’s platforms: Marketplace (e-commerce of formation courses), Skill Games (online questionaries that let you discover your vocation and potential skills), MySA (a platform where you have access to your course lessons and videos), Dashboard (a management platform that let you manage your academy, courses, leads and email campaigns) and BusinessInCloud (a marketing platform that let you create funnel and landing pages). I used and/or integrated into Social Academy external services like Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform and Zapier. I used to use HTML 5, CSS 3, Ruby on Rails, ReactJs, AngularJs, Javascript, JQuery, AWS and Heroku to develop and manage all Social Academy’s platforms."
+      "description": "Ho progettato, sviluppato e testato i componenti software delle piattaforme di Social Academy: Marketplace (e-commerce di corsi di formazione), Skill Games (quiz online che ti permettono di scoprire la tua vocazione e potenziali competenze), MySA (una piattaforma a cui hai accesso alle lezioni e ai video dei tuoi corsi), Dashboard (una piattaforma di gestione che ti permette di gestire la tua accademia, i corsi, i lead e le campagne email) e BusinessInCloud (una piattaforma di marketing che ti permette di creare funnel e landing page). Ho utilizzato e/o integrato servizi esterni di Social Academy come Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform e Zapier. In passato, ho utilizzato HTML 5, CSS 3, Ruby on Rails, ReactJs, AngularJs, Javascript, JQuery, AWS e Heroku per sviluppare e gestire tutte le piattaforme di Social Academy."
+    },
+    {
+      "company": "Università di New York",
+      "location": "New York, NY, USA",
+      "startDate": "2016-09",
+      "endDate": "2017-03",
+      "role": "Internship",
+      "logoText": "Università di New York",
+      "logo": "/assets/new_york_university.png",
+      "description": "Ho lavorato al progetto Terraling, una collezione di database linguistici che permettono agli utenti di scoprire quali proprietà (morfologiche, sintattiche e semantiche) caratterizzano una lingua e quali differenze esistono tra le varie lingue."
     },
     {
       "company": "The City s.r.l.s.",
-      "location": "Via In Arcione 98, 00187, Rome, Italy",
+      "location": "Via In Arcione 98, 00187, Roma, Italia",
       "startDate": "2015-07",
       "endDate": "2016-02",
       "role": "Full-Stack developer",
       "logoText": "The City s.r.l.s.",
       "logo": "/assets/the_city.png",
-      "description": "I worked for a real estate agency where I developed its online marketplace using HTML 5, CSS 3, Javascript, JQuery, Bootstrap for the client side. The server side has been developed with Ruby on Rails."
+      "description": "Ho lavorato per un'agenzia immobiliare dove ho sviluppato il suo marketplace online utilizzando HTML 5, CSS 3, Javascript, JQuery, Bootstrap per il lato client. Il lato server è stato sviluppato con Ruby on Rails."
     },
     {
       "company": "InnovAction Lab - Fashape",
-      "location": "Via In Arcione 98, 00187, Rome, Italy",
+      "location": "Via In Arcione 98, 00187, Roma, Italia",
       "startDate": "2015-02",
       "endDate": "2015-07",
       "role": "CTO | Full-Stack developer",
       "logoText": "InnovAction Lab - Fashape",
       "logo": "/assets/fashape.png",
-      "description": "InnovAction Lab is a training course that gives you the ability to turn your innovative idea into a startup. I and my team created our startup called “Fashape” to help people to find the best men’s fashion products through a daily wish list of most voted objects from social networks. I projected and developed the entire platform using MeteorJS framework and Microsoft Azure cloud resources."
+      "description": "InnovAction Lab è un corso di formazione che ti da l’abilità di trasformare la tua idea innovativa in una startup. Io ed il mio team abbiamo creato “Fashape” per aiutare le persone a trovare i migliori prodotti maschili sul mercato attraverso una lista degli oggetti più richiesti dai social networks. Ho progettato e sviluppato l’intera piattaforma usando il framework MeteorJS e i servizi offerti da Microsoft Azure."
     },
     {
       "company": "H.S.C. s.r.l.",
-      "location": "Via Elio Lampridio Cerva 103, 00143, Rome, Italy",
+      "location": "Via Elio Lampridio Cerva 103, 00143, Roma, Italia",
       "startDate": "2013-09",
       "endDate": "2013-09",
       "role": "Software Developer",
       "logoText": "H.S.C. s.r.l.",
       "logo": "/assets/hsc.png",
-      "description": "I have collaborated for developing the company's enterprise software, using Delphi programming language and PL/SQL for database queries."
+      "description": "Ho collaborato allo sviluppo del software aziendale dell'azienda, utilizzando il linguaggio di programmazione Delphi e PL/SQL per le query sul database."
     },
     {
       "company": "I.S.T.C. C.N.R.",
@@ -148,7 +158,7 @@
       "role": "Internship",
       "logoText": "I.S.T.C. C.N.R.",
       "logo": "/assets/istc.png",
-      "description": "I developed a desktop application to a robotic platform with the aim of analyzing the person's posture and balance through three simple exercises engines. The application was developed in C# and working closely with the Kinect sensor for tracking posture."
+      "description": "Ho sviluppato un applicazione desktop per una piattaforma robotica con l’obiettivo di analizzare la postura di una persona attraverso tre semplici esercizi motori. L’applicazione è stata sviluppata in C# con l’ausilio del sensore Kinect per il tracciamento della postura"
     }
   ],
   "education": [
