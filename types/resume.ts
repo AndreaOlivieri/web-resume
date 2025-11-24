@@ -14,7 +14,8 @@ export interface ResumeData {
   experience: Array<{
     company: string;
     location?: string;
-    period?: string;
+    startDate?: string;
+    endDate?: string | null;
     role?: string;
     logoText?: string;
     logo?: string;

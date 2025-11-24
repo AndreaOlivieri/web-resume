@@ -16,7 +16,8 @@
     {
       "company": "Open Reply",
       "location": "Via Cavour 59, 00184, Rome, Italy",
-      "period": "Feb 2021 - Present (4 years)",
+      "startDate": "2021-02",
+      "endDate": null,
       "role": "Tech Lead | Senior Consultant | Front-end Expert (Computer Engineer)",
       "logoText": "REPLY",
       "logo": "/assets/open_reply.svg",
@@ -62,7 +63,8 @@
     {
       "company": "Accenture",
       "location": "Via Sciangai 53, 00144, Rome, Italy",
-      "period": "Oct 2019 - Feb 2021 (1 year)",
+      "startDate": "2019-10",
+      "endDate": "2021-02",
       "role": "Application Development Senior Analyst | Frontend Expert | Computer Engineer",
       "logoText": "accenture",
       "logo": "/assets/accenture.png",

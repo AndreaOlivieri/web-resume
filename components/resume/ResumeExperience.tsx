@@ -1,14 +1,17 @@
 import React from "react";
 import { ResumeData } from "../../types/resume";
+import { formatPeriod } from "../../utils/date";
 
 interface ResumeExperienceProps {
   experience: ResumeData["experience"];
   label: string;
+  language: "it" | "en";
 }
 
 export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
   experience,
   label,
+  language,
 }) => {
   return (
     <section className="mb-6">
@@ -21,9 +24,9 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
           <div key={index} className="relative">
             <div className="flex justify-between items-start">
               <div>
-                {job.period && (
+                {job.startDate && (
                   <p className="text-[10px] text-gray-500 mb-0.5">
-                    {job.period}
+                    {formatPeriod(job.startDate, job.endDate, language)}
                   </p>
                 )}
                 <h3 className="font-bold text-gray-900 text-sm">

@@ -10,10 +10,11 @@ import { ResumeCertifications } from "./resume/ResumeCertifications";
 
 interface ResumeProps {
   data: ResumeData;
+  language: "it" | "en";
 }
 
 export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
-  ({ data }, ref) => {
+  ({ data, language }, ref) => {
     const {
       header,
       summary,
@@ -40,7 +41,11 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
         >
           <ResumeHeader header={header} />
           <ResumeSummary summary={summary} />
-          <ResumeExperience experience={experience} label={labels.experience} />
+          <ResumeExperience
+            experience={experience}
+            label={labels.experience}
+            language={language}
+          />
           <ResumeEducation education={education} label={labels.education} />
           <ResumeSkills skills={skills} label={labels.skills} />
           <ResumeLanguages languages={languages} label={labels.languages} />

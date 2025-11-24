@@ -58,7 +58,11 @@ export default function Home() {
       {/* Resume Display Area */}
       <div className="overflow-auto w-full flex justify-center px-4">
         <div className="transform scale-90 md:scale-100 origin-top transition-transform duration-300">
-          <Resume ref={resumeRef} data={resumeData[language]} />
+          <Resume
+            ref={resumeRef}
+            data={resumeData[language]}
+            language={language}
+          />
         </div>
       </div>
     </div>
