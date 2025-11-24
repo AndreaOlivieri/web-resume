@@ -4,11 +4,7 @@
     "title": "Computer Engineer | Tech Lead | Senior Consultant",
     "subTitle": "Front-End & Mobile Developer",
     "contact": {
-      "location": "Rome, Italy",
-      "email": "andrea.olivieri1991@gmail.com",
-      "phone": "+39 333 3488 893",
-      "github": "github.com/AndreaOlivieri",
-      "linkedin": "linkedin.com/in/andrea-olivieri"
+      "location": "Rome, Italy"
     }
   },
   "summary": "I am a Computer Engineer, Web & Mobile Developer with 10 years of experience. Holder of Professional Certificates. Tech Lead in complex projects. I designed and developed an innovative micro-frontend architecture and managed a team of over 10 developers. I am a technology enthusiast and in my free time I dedicate myself to learning new frameworks and libraries.",
@@ -25,13 +21,11 @@
       "projects": [
         {
           "company": "Open Reply",
-          "role": "Frontend Developer",
           "logoText": "Open Reply",
           "description": "I worked as Tech Lead on several PoCs for Open Reply, contributing to the design and development of innovative cross-platform applications. These applications stand out because the entire user interface is controlled by AI agents. The main technologies used are: Python, OpenAI, OpenSearch, React Native, Expo."
         },
         {
           "company": "PhotoSì",
-          "role": "Frontend Developer",
           "logoText": "PhotoSì",
           "logo": "/assets/photosi.svg",
           "description": "I worked on the PhotoSì project as a Frontend expert, contributing to the development of the customer's photo book editor for mobile and web applications. The main technologies used in this project are: React Native, Expo, Typescript, Javascript."
@@ -116,13 +110,11 @@
     {
       "date": "Jan 2013 - Mar 2017",
       "degree": "Master's Degree in Computer Engineering (105/110)",
-      "level": "Level 7 EQF",
       "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
     },
     {
       "date": "Oct 2009 - Jul 2013",
       "degree": "Bachelor's Degree in Computer Engineering (94/110)",
-      "level": "Level 6 EQF",
       "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
     }
   ],

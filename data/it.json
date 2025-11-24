@@ -4,11 +4,7 @@
     "title": "Ingegnere Informatico | Tech Lead | Senior Consultant",
     "subTitle": "Sviluppatore Front-End & Mobile",
     "contact": {
-      "location": "Roma, Italia",
-      "email": "andrea.olivieri1991@gmail.com",
-      "phone": "+39 333 3488 893",
-      "github": "github.com/AndreaOlivieri",
-      "linkedin": "linkedin.com/in/andrea-olivieri"
+      "location": "Roma, Italia"
     }
   },
   "summary": "Sono un Ingegnere Informatico, sviluppatore Web & Mobile con 10 anni di esperienza. In possesso di Certificati Professionali. Tech Lead in progetti complessi. Ho progettato e sviluppato un'architettura innovativa a micro-frontend e ho gestito un team di oltre 10 sviluppatori. Sono un appassionato di tecnologia e nel mio tempo libero mi dedico ad imparare nuovi framework e librerie.",
@@ -25,13 +21,11 @@
       "projects": [
         {
           "company": "Open Reply",
-          "role": "Frontend Developer",
           "logoText": "Open Reply",
           "description": "Ho lavorato come Tech Lead su diversi PoC per Open Reply, contribuendo alla progettazione e allo sviluppo di applicazioni cross-platform innovative. Queste applicazioni si distinguono perché l'intera interfaccia utente è controllata da agenti AI. Le principali tecnologie utilizzate sono: Python, OpenAI, OpenSearch, React Native, Expo."
         },
         {
           "company": "PhotoSì",
-          "role": "Frontend Developer",
           "logoText": "PhotoSì",
           "logo": "/assets/photosi.svg",
           "description": "Ho lavorato al progetto PhotoSì come esperto Frontend, contribuendo allo sviluppo dell'editor di fotolibri del cliente per applicazioni mobile e web. Le principali tecnologie utilizzate in questo progetto sono: React Native, Expo, Typescript, Javascript."
@@ -116,13 +110,11 @@
     {
       "date": "Jan 2013 - Mar 2017",
       "degree": "Laurea Magistrale in Ingegneria Informatica (105/110)",
-      "level": "Level 7 EQF",
       "institution": "Università Roma Tre - Via Ostiense 159, 00154, Roma, Italia"
     },
     {
       "date": "Oct 2009 - Lug 2013",
       "degree": "Laurea Triennale in Ingegneria Informatica (94/110)",
-      "level": "Level 6 EQF",
       "institution": "Università Roma Tre - Via Ostiense 159, 00154, Roma, Italia"
     }
   ],

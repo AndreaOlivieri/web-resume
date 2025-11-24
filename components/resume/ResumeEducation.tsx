@@ -21,12 +21,7 @@ export const ResumeEducation: React.FC<ResumeEducationProps> = ({
             {edu.date && (
               <p className="text-[10px] text-gray-500 mb-0.5">{edu.date}</p>
             )}
-            <h3 className="font-bold text-gray-900 text-sm">
-              {edu.degree}{" "}
-              {edu.level && (
-                <span className="text-gray-500 font-normal">{edu.level}</span>
-              )}
-            </h3>
+            <h3 className="font-bold text-gray-900 text-sm">{edu.degree}</h3>
             <p className="text-xs text-gray-600">{edu.institution}</p>
           </div>
         ))}

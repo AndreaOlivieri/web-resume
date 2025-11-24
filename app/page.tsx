@@ -7,9 +7,34 @@ import { Menu } from "@/components/Menu";
 import itData from "../data/it.json";
 import enData from "../data/en.json";
 
+const contactInfo = {
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "",
+  phone: process.env.NEXT_PUBLIC_CONTACT_PHONE || "",
+  github: process.env.NEXT_PUBLIC_CONTACT_GITHUB || "",
+  linkedin: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || "",
+};
+
 const resumeData = {
-  it: itData,
-  en: enData,
+  it: {
+    ...itData,
+    header: {
+      ...itData.header,
+      contact: {
+        ...itData.header.contact,
+        ...contactInfo,
+      },
+    },
+  },
+  en: {
+    ...enData,
+    header: {
+      ...enData.header,
+      contact: {
+        ...enData.header.contact,
+        ...contactInfo,
+      },
+    },
+  },
 };
 
 export default function Home() {
