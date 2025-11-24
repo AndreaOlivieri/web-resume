@@ -1,12 +1,11 @@
-'use client';
+"use client";
 
-import React, { useRef } from 'react';
-import { useReactToPrint } from 'react-to-print';
-import { Resume } from '@/components/Resume';
+import React, { useRef } from "react";
+import { useReactToPrint } from "react-to-print";
+import { Resume } from "@/components/Resume";
 import { Menu } from "@/components/Menu";
-import { Download, Globe } from "lucide-react";
-import itData from '../data/it.json';
-import enData from '../data/en.json';
+import itData from "../data/it.json";
+import enData from "../data/en.json";
 
 const resumeData = {
   it: itData,
@@ -61,10 +60,6 @@ export default function Home() {
         <div className="transform scale-90 md:scale-100 origin-top transition-transform duration-300">
           <Resume ref={resumeRef} data={resumeData[language]} />
         </div>
-      </div>
-
-      <div className="text-gray-500 text-sm pb-4">
-        &copy; {new Date().getFullYear()} Andrea Olivieri
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React, { forwardRef } from "react";
 import { Mail, Phone, MapPin, Github, Car } from "lucide-react";
 
 interface ResumeData {
@@ -10,7 +10,6 @@ interface ResumeData {
       location: string;
       email: string;
       phone: string;
-      license: string;
       github: string;
     };
   };
@@ -120,10 +119,6 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(({ data }, ref) =>
               <div className="flex items-center gap-2">
                 <Phone size={14} />
                 <span className="font-semibold">{header.contact.phone}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Car size={14} />
-                <span className="font-semibold">{header.contact.license}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Github size={14} />
@@ -260,4 +255,4 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(({ data }, ref) =>
   );
 });
 
-Resume.displayName = 'Resume';
+Resume.displayName = "Resume";

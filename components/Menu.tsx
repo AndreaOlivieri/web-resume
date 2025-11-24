@@ -1,15 +1,21 @@
-import React from 'react';
-import { Download } from 'lucide-react';
+import React from "react";
+import { Download } from "lucide-react";
 
 interface MenuProps {
   isOpen: boolean;
   onClose: () => void;
-  language: 'it' | 'en';
-  setLanguage: (lang: 'it' | 'en') => void;
+  language: "it" | "en";
+  setLanguage: (lang: "it" | "en") => void;
   onPrint: () => void;
 }
 
-export const Menu: React.FC<MenuProps> = ({ isOpen, onClose, language, setLanguage, onPrint }) => {
+export const Menu: React.FC<MenuProps> = ({
+  isOpen,
+  onClose,
+  language,
+  setLanguage,
+  onPrint,
+}) => {
   return (
     <>
       {/* Menu Toggle Button */}
@@ -26,18 +32,22 @@ export const Menu: React.FC<MenuProps> = ({ isOpen, onClose, language, setLangua
 
       {/* Slide-out Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full w-80 bg-gray-800 shadow-2xl transform transition-all duration-300 ease-in-out z-50 ${
+        className={`fixed top-0 right-0 h-full w-80 bg-gray-900 border-l border-gray-800 shadow-2xl transform transition-all duration-300 ease-in-out z-50 ${
           isOpen
             ? "translate-x-0 opacity-100 visible"
             : "translate-x-full opacity-0 invisible"
         }`}
       >
-        <div className="p-6 flex flex-col h-full">
-          <div className="flex justify-between items-center mb-8">
-            <h2 className="text-xl font-bold text-white">Menu</h2>
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-purple-900/20 pointer-events-none" />
+
+        <div className="p-6 flex flex-col h-full relative z-10 bg-gray">
+          <div className="flex justify-between items-center mb-10">
+            <h2 className="text-2xl font-bold text-white tracking-tight">
+              Menu
+            </h2>
             <button
               onClick={onClose}
-              className="text-gray-400 hover:text-white transition-colors"
+              className="text-gray-300 hover:text-white transition-colors p-2 hover:bg-white/10 rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,27 +66,27 @@ export const Menu: React.FC<MenuProps> = ({ isOpen, onClose, language, setLangua
             </button>
           </div>
 
-          <div className="mb-6">
-            <h3 className="text-gray-400 text-sm font-semibold mb-3 uppercase tracking-wider">
+          <div className="mb-8">
+            <h3 className="text-gray-300 text-sm font-bold mb-4 uppercase tracking-widest">
               Language
             </h3>
-            <div className="flex gap-2">
+            <div className="flex gap-3">
               <button
                 onClick={() => setLanguage("it")}
-                className={`flex-1 py-2 px-4 rounded-md font-medium transition-all ${
+                className={`flex-1 py-3 px-4 rounded-xl font-medium transition-all duration-200 border ${
                   language === "it"
-                    ? "bg-blue-600 text-white shadow-md"
-                    : "bg-gray-700 text-gray-300 hover:bg-gray-600"
+                    ? "bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-900/20"
+                    : "bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700 hover:text-white hover:border-gray-500"
                 }`}
               >
                 Italiano
               </button>
               <button
                 onClick={() => setLanguage("en")}
-                className={`flex-1 py-2 px-4 rounded-md font-medium transition-all ${
+                className={`flex-1 py-3 px-4 rounded-xl font-medium transition-all duration-200 border ${
                   language === "en"
-                    ? "bg-blue-600 text-white shadow-md"
-                    : "bg-gray-700 text-gray-300 hover:bg-gray-600"
+                    ? "bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-900/20"
+                    : "bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700 hover:text-white hover:border-gray-500"
                 }`}
               >
                 English
@@ -84,17 +94,18 @@ export const Menu: React.FC<MenuProps> = ({ isOpen, onClose, language, setLangua
             </div>
           </div>
 
+          <div className="h-px bg-gray-800 w-full mb-8" />
+
           <button
             onClick={onPrint}
-            className="flex items-center gap-3 bg-white/10 hover:bg-white/20 text-white px-4 py-3 rounded-lg font-medium transition-all shadow-md w-full mb-4"
+            className="group flex items-center justify-center gap-3 bg-white text-gray-900 hover:bg-gray-100 px-6 py-4 rounded-xl font-bold transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 w-full mb-4"
           >
-            <Download size={20} />
+            <Download
+              size={20}
+              className="group-hover:scale-110 transition-transform"
+            />
             Download PDF
           </button>
-
-          <div className="mt-auto text-gray-500 text-xs text-center">
-            Resume Viewer v1.1
-          </div>
         </div>
       </div>
 
