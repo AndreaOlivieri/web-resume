@@ -99,6 +99,56 @@
           "description": "I served as a Frontend developer on the website of MSC Crociere, contributing to the development of the web platform. The main development tools used in this project: ReactJs e Redux, Angular 10+, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git"
         }
       ]
+    },
+    {
+      "company": "Social Academy s.r.l.",
+      "location": "Via Catone 3, 00192, Rome, Italy",
+      "startDate": "2017-02",
+      "endDate": "2019-10",
+      "role": "Full-Stack developer | Business in Cloud's software architect | Software Engineer",
+      "logoText": "Social Academy s.r.l.",
+      "logo": "/assets/social_academy.png",
+      "description": "I projected, developed, and tested the software components of Social Academy’s platforms: Marketplace (e-commerce of formation courses), Skill Games (online questionaries that let you discover your vocation and potential skills), MySA (a platform where you have access to your course lessons and videos), Dashboard (a management platform that let you manage your academy, courses, leads and email campaigns) and BusinessInCloud (a marketing platform that let you create funnel and landing pages). I used and/or integrated into Social Academy external services like Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform and Zapier. I used to use HTML 5, CSS 3, Ruby on Rails, ReactJs, AngularJs, Javascript, JQuery, AWS and Heroku to develop and manage all Social Academy’s platforms."
+    },
+    {
+      "company": "The City s.r.l.s.",
+      "location": "Via In Arcione 98, 00187, Rome, Italy",
+      "startDate": "2015-07",
+      "endDate": "2016-02",
+      "role": "Full-Stack developer",
+      "logoText": "The City s.r.l.s.",
+      "logo": "/assets/the_city.png",
+      "description": "I worked for a real estate agency where I developed its online marketplace using HTML 5, CSS 3, Javascript, JQuery, Bootstrap for the client side. The server side has been developed with Ruby on Rails."
+    },
+    {
+      "company": "InnovAction Lab - Fashape",
+      "location": "Via In Arcione 98, 00187, Rome, Italy",
+      "startDate": "2015-02",
+      "endDate": "2015-07",
+      "role": "CTO | Full-Stack developer",
+      "logoText": "InnovAction Lab - Fashape",
+      "logo": "/assets/fashape.png",
+      "description": "InnovAction Lab is a training course that gives you the ability to turn your innovative idea into a startup. I and my team created our startup called “Fashape” to help people to find the best men’s fashion products through a daily wish list of most voted objects from social networks. I projected and developed the entire platform using MeteorJS framework and Microsoft Azure cloud resources."
+    },
+    {
+      "company": "H.S.C. s.r.l.",
+      "location": "Via Elio Lampridio Cerva 103, 00143, Rome, Italy",
+      "startDate": "2013-09",
+      "endDate": "2013-09",
+      "role": "Software Developer",
+      "logoText": "H.S.C. s.r.l.",
+      "logo": "/assets/hsc.png",
+      "description": "I have collaborated for developing the company's enterprise software, using Delphi programming language and PL/SQL for database queries."
+    },
+    {
+      "company": "I.S.T.C. C.N.R.",
+      "location": "Via S. Martino della Battaglia 44, 00185, Rome, Italy",
+      "startDate": "2013-04",
+      "endDate": "2013-07",
+      "role": "Internship",
+      "logoText": "I.S.T.C. C.N.R.",
+      "logo": "/assets/istc.png",
+      "description": "I developed a desktop application to a robotic platform with the aim of analyzing the person's posture and balance through three simple exercises engines. The application was developed in C# and working closely with the Kinect sensor for tracking posture."
     }
   ],
   "education": [
