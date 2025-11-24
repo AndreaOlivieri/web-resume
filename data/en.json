@@ -1,0 +1,142 @@
+{
+  "header": {
+    "name": "Andrea Olivieri",
+    "title": "Computer Engineer | Tech Lead | Senior Consultant",
+    "subTitle": "Front-End & Mobile Developer",
+    "contact": {
+      "location": "Rome, Italy",
+      "email": "andrea.olivieri1991@gmail.com",
+      "phone": "+39 333 3488 893",
+      "license": "Driving License B",
+      "github": "github.com/AndreaOlivieri"
+    }
+  },
+  "summary": "I am a Computer Engineer, Web & Mobile Developer with 10 years of experience. Holder of Professional Certificates. Tech Lead in complex projects. I designed and developed an innovative micro-frontend architecture and managed a team of over 10 developers. I am a technology enthusiast and in my free time I dedicate myself to learning new frameworks and libraries.",
+  "experience": [
+    {
+      "company": "Open Reply",
+      "location": "Via Cavour 59, 00184, Rome, Italy",
+      "period": "Feb 2021 - Present (4 years)",
+      "role": "Tech Lead | Senior Consultant | Front-end Expert (Computer Engineer)",
+      "logoText": "REPLY",
+      "description": "I worked with several clients:\n• Open Reply: I worked as Tech Lead on several PoCs for Open Reply, contributing to the design and development of innovative cross-platform applications. These applications stand out because the entire user interface is controlled by AI agents. The main technologies used are: Python, OpenAI, OpenSearch, React Native, Expo."
+    },
+    {
+      "company": "Photocì",
+      "role": "Frontend Developer",
+      "logoText": "Photocì",
+      "description": "I worked on the Photocì project as a Frontend expert, contributing to the development of the customer's photo book editor for mobile and web applications. The main technologies used in this project are: React Native, Expo, Typescript, Javascript."
+    },
+    {
+      "company": "Church's",
+      "logoText": "Church's",
+      "description": "I worked on the Church's project as a Frontend expert, contributing to the improvement of the user experience of the Church's website. The main technologies used in this project are: Vue 3, Typescript, Javascript."
+    },
+    {
+      "company": "Mediaset",
+      "logoText": "MEDIASET",
+      "description": "I worked on the Mediaset project as a Frontend expert, contributing to the development of a new Smart TV application that allows users to watch movies, TV series and live channels offered by Mediaset. The main technologies used in this project are: React Native, Typescript, Javascript, Storybook."
+    },
+    {
+      "company": "Unipol",
+      "logoText": "Unipol",
+      "description": "I worked on the UnipolSai project as Tech Lead and Frontend expert, leading the design and development of a new micro-frontend architecture based on Module Federation. I managed a dynamic team of over 10 developers. The main development tools used in this project are: React.js and Redux, Angular 14, Typescript, Javascript ES6, Node.js, Express, Webpack, Module Federation Plugin, Jest, React Testing Library, HTML 5, CSS 3, CSS in JS, SCSS/SASS, Git, Lerna/Nx."
+    },
+    {
+      "company": "British American Tobacco",
+      "logoText": "BAT",
+      "description": "I worked on the Vuse.com project as a Frontend expert, contributing to the development of a web application for the management and use of the MyVuse electronic cigarette, as well as the creation of an interactive browser based on BLE technology. The main technologies used in this project include: React.js and Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
+    },
+    {
+      "company": "Prada",
+      "logoText": "PRADA",
+      "description": "I worked on the e-commerce projects of Prada, Miu Miu and Car Shoe as a Frontend expert. The main development tools used in this project are: Typescript, Javascript ES6, jQuery, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
+    },
+    {
+      "company": "Accenture",
+      "location": "Via Sciangai 53, 00144, Rome, Italy",
+      "period": "Oct 2019 - Feb 2021 (1 year)",
+      "role": "Application Development Senior Analyst | Frontend Expert | Computer Engineer",
+      "logoText": "accenture",
+      "description": "I worked with several clients:\n• Skoda, Leonardo s.p.a., e-GEOS, MSC Cruises."
+    }
+  ],
+  "education": [
+    {
+      "date": "Oct 2013",
+      "degree": "State Technical Superior and qualification for the profession of Engineer (107/110)",
+      "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
+    },
+    {
+      "date": "Jan 2013 - Mar 2017",
+      "degree": "Master's Degree in Computer Engineering (105/110)",
+      "level": "Level 7 EQF",
+      "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
+    },
+    {
+      "date": "Oct 2009 - Jul 2013",
+      "degree": "Bachelor's Degree in Computer Engineering (94/110)",
+      "level": "Level 6 EQF",
+      "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Industry Knowledge",
+      "items": "Web, Mobile & Software Development • Agile Methodologies • SCRUM • Object-Oriented Programming (OOP) • Algorithms • SQL • Microfront-end Architectures • TDD"
+    },
+    {
+      "category": "Mobile Development",
+      "items": "React Native • Expo"
+    },
+    {
+      "category": "Web Development - Front-End",
+      "items": "HTML5 • CSS3 • SASS • SCSS • Bootstrap • Foundation • CSS-in-JS • Styled Components • Flexbox • Javascript • ES6 • Promise • Async Await • Typescript • React • Redux • Angular 9+ • RxJS • Vue • Vuex • JQuery • Next.js • AJAX • Webpack • Module Federation • JSON • Jest • Lerna/NX • Storybook"
+    },
+    {
+      "category": "Web Development - Back-End",
+      "items": "Node.js • Express • GraphQL • REST API • Amazon Web Services (AWS) • Microsoft Azure • Heroku • Server Side Rendering"
+    },
+    {
+      "category": "Databases",
+      "items": "PostgreSQL • MySQL"
+    },
+    {
+      "category": "Programming Languages",
+      "items": "Python • Ruby • Java"
+    },
+    {
+      "category": "Soft Skills",
+      "items": "Problem Solving • Critical Thinking • Time Management • Teamwork • Self Learning • Analytical reasoning • Adaptability"
+    },
+    {
+      "category": "Development Tools",
+      "items": "Postman • Git/Gitlab • Visual Code • Miro • Figma • Chrome Dev Tools • Bash Shell"
+    }
+  ],
+  "languages": [
+    { "name": "Italian", "level": "Native" },
+    { "name": "English", "level": "Upper Intermediate (B2 level)" }
+  ],
+  "certifications": [
+    {
+      "date": "Sep 2024 - Present",
+      "title": "AI Online Certifications - Learnn, Udemy, Linkedin"
+    },
+    { "date": "Oct 2023", "title": "Meta Front-End Developer - Meta" },
+    { "date": "Apr 2023", "title": "Meta React Native - Meta" },
+    {
+      "date": "Oct 2020",
+      "title": "B2 First - Cambridge University Press & Assessment English"
+    },
+    { "date": "Jul 2019", "title": "Spoken English CEFR Level B2.4 - Speexx" }
+  ],
+  "footerNote": "I authorize the processing of my personal data contained in my curriculum vitae based on art. 13 of Legislative Decree 196/2003 and art. 13 GDPR 679/16.",
+  "labels": {
+    "experience": "EXPERIENCE",
+    "education": "EDUCATION",
+    "skills": "SKILLS",
+    "languages": "LANGUAGES",
+    "certifications": "CERTIFICATIONS"
+  }
+}

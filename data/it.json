@@ -119,11 +119,24 @@
     { "name": "Inglese", "level": "Intermedio alto (B2 level)" }
   ],
   "certifications": [
-    { "date": "Sep 2024 - Oggi", "title": "Certificazioni AI Corso Online - Learnn, Udemy, Linkedin" },
+    {
+      "date": "Sep 2024 - Oggi",
+      "title": "Certificazioni AI Corso Online - Learnn, Udemy, Linkedin"
+    },
     { "date": "Oct 2023", "title": "Meta Front-End Developer - Meta" },
     { "date": "Apr 2023", "title": "Meta React Native - Meta" },
-    { "date": "Oct 2020", "title": "B2 First - Cambridge University Press & Assessment English" },
+    {
+      "date": "Oct 2020",
+      "title": "B2 First - Cambridge University Press & Assessment English"
+    },
     { "date": "Jul 2019", "title": "Spoken English CEFR Level B2.4 - Speexx" }
   ],
-  "footerNote": "Autorizzo il trattamento dei miei dati personali contenuti nel mio curriculum vitae in base all'art. 13 del D. Lgs. 196/2003 e all'art. 13 GDPR 679/16."
+  "footerNote": "Autorizzo il trattamento dei miei dati personali contenuti nel mio curriculum vitae in base all'art. 13 del D. Lgs. 196/2003 e all'art. 13 GDPR 679/16.",
+  "labels": {
+    "experience": "ESPERIENZE",
+    "education": "FORMAZIONE",
+    "skills": "SKILLS",
+    "languages": "LINGUE",
+    "certifications": "CERTIFICAZIONI"
+  }
 }

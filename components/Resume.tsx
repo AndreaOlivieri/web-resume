@@ -1,8 +1,61 @@
 import React, { forwardRef } from 'react';
 import { Mail, Phone, MapPin, Github, Car } from "lucide-react";
-import resumeData from "../data/resume.json";
 
-export const Resume = forwardRef<HTMLDivElement>((props, ref) => {
+interface ResumeData {
+  header: {
+    name: string;
+    title: string;
+    subTitle: string;
+    contact: {
+      location: string;
+      email: string;
+      phone: string;
+      license: string;
+      github: string;
+    };
+  };
+  summary: string;
+  experience: Array<{
+    company: string;
+    location?: string;
+    period?: string;
+    role?: string;
+    logoText?: string;
+    description: string;
+  }>;
+  education: Array<{
+    date: string;
+    degree: string;
+    institution: string;
+    level?: string;
+  }>;
+  skills: Array<{
+    category: string;
+    items: string;
+  }>;
+  languages: Array<{
+    name: string;
+    level: string;
+  }>;
+  certifications: Array<{
+    date: string;
+    title: string;
+  }>;
+  footerNote: string;
+  labels: {
+    experience: string;
+    education: string;
+    skills: string;
+    languages: string;
+    certifications: string;
+  };
+}
+
+interface ResumeProps {
+  data: ResumeData;
+}
+
+export const Resume = forwardRef<HTMLDivElement, ResumeProps>(({ data }, ref) => {
   const {
     header,
     summary,
@@ -12,7 +65,8 @@ export const Resume = forwardRef<HTMLDivElement>((props, ref) => {
     languages,
     certifications,
     footerNote,
-  } = resumeData;
+    labels,
+  } = data;
 
   return (
     <div className="w-full flex justify-center bg-gray-100 p-8 print:p-0">
@@ -89,7 +143,7 @@ export const Resume = forwardRef<HTMLDivElement>((props, ref) => {
         {/* Experience */}
         <section className="mb-6">
           <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-4 before:h-px before:bg-gray-400 before:flex-1 after:h-px after:bg-gray-400 after:flex-1 uppercase tracking-widest">
-            ESPERIENZE
+            {labels.experience}
           </h2>
 
           <div className="space-y-5">
@@ -128,7 +182,7 @@ export const Resume = forwardRef<HTMLDivElement>((props, ref) => {
         {/* Education */}
         <section className="mb-6">
           <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-4 before:h-px before:bg-gray-400 before:flex-1 after:h-px after:bg-gray-400 after:flex-1 uppercase tracking-widest">
-            FORMAZIONE
+            {labels.education}
           </h2>
           <div className="space-y-3">
             {education.map((edu, index) => (
@@ -153,7 +207,7 @@ export const Resume = forwardRef<HTMLDivElement>((props, ref) => {
         {/* Skills */}
         <section className="mb-6">
           <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-4 before:h-px before:bg-gray-400 before:flex-1 after:h-px after:bg-gray-400 after:flex-1 uppercase tracking-widest">
-            SKILLS
+            {labels.skills}
           </h2>
           <div className="space-y-2 text-[11px]">
             {skills.map((skill, index) => (
@@ -170,7 +224,7 @@ export const Resume = forwardRef<HTMLDivElement>((props, ref) => {
         {/* Languages */}
         <section className="mb-6">
           <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-4 before:h-px before:bg-gray-400 before:flex-1 after:h-px after:bg-gray-400 after:flex-1 uppercase tracking-widest">
-            LINGUE
+            {labels.languages}
           </h2>
           <div className="space-y-1 text-[11px] text-gray-600">
             {languages.map((lang, index) => (
@@ -185,7 +239,7 @@ export const Resume = forwardRef<HTMLDivElement>((props, ref) => {
         {/* Certifications */}
         <section>
           <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-4 before:h-px before:bg-gray-400 before:flex-1 after:h-px after:bg-gray-400 after:flex-1 uppercase tracking-widest">
-            CERTIFICAZIONI
+            {labels.certifications}
           </h2>
           <div className="space-y-2 text-[11px] text-gray-600">
             {certifications.map((cert, index) => (
