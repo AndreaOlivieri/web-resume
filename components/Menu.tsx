@@ -14,8 +14,8 @@ export const Menu: React.FC<MenuProps> = ({ isOpen, onClose, language, setLangua
     <>
       {/* Menu Toggle Button */}
       <button
-        onClick={() => onClose()} // This button is actually the open button in page.tsx, but here we might want to just render the sidebar content or handle the toggle differently. 
-        // Wait, the toggle button is usually outside the menu or part of the layout. 
+        onClick={() => onClose()} // This button is actually the open button in page.tsx, but here we might want to just render the sidebar content or handle the toggle differently.
+        // Wait, the toggle button is usually outside the menu or part of the layout.
         // Let's keep the toggle button in the parent or include it here if we want the Menu component to handle its own visibility state?
         // The prompt implies moving the "menu" which usually means the sidebar.
         // Let's stick to the sidebar content and overlay. The toggle button can remain in the parent or be passed in.
@@ -26,8 +26,10 @@ export const Menu: React.FC<MenuProps> = ({ isOpen, onClose, language, setLangua
 
       {/* Slide-out Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full w-80 bg-gray-800 shadow-2xl transform transition-transform duration-300 ease-in-out z-50 ${
-          isOpen ? "translate-x-0" : "translate-x-full"
+        className={`fixed top-0 right-0 h-full w-80 bg-gray-800 shadow-2xl transform transition-all duration-300 ease-in-out z-50 ${
+          isOpen
+            ? "translate-x-0 opacity-100 visible"
+            : "translate-x-full opacity-0 invisible"
         }`}
       >
         <div className="p-6 flex flex-col h-full">
