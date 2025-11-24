@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Phone, MapPin, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 import { ResumeData } from "../../types/resume";
 
 interface ResumeHeaderProps {
@@ -50,6 +50,12 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ header }) => {
             <Github size={14} />
             <span className="font-semibold">{header.contact.github}</span>
           </div>
+          {header.contact.linkedin && (
+            <div className="flex items-center gap-2">
+              <Linkedin size={14} />
+              <span className="font-semibold">{header.contact.linkedin}</span>
+            </div>
+          )}
         </div>
       </div>
     </header>
