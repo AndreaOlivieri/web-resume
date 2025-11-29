@@ -6,8 +6,6 @@ export const formatPeriod = (
   endDate: string | null | undefined,
   language: "it" | "en"
 ): string | undefined => {
-  if (!startDate) return undefined;
-
   const translations = language === "it" ? itTranslations : enTranslations;
 
   const start = startDate ? new Date(startDate) : null;
@@ -21,15 +19,18 @@ export const formatPeriod = (
     }
   );
 
-  const endStr = endDate
-    ? new Date(endDate)?.toLocaleDateString(
-        language === "it" ? "it-IT" : "en-US",
-        {
-          month: "short",
-          year: "numeric",
-        }
-      )
-    : translations.dates.present;
+  let endStr;
+  if (endDate) {
+    endStr = new Date(endDate).toLocaleDateString(
+      language === "it" ? "it-IT" : "en-US",
+      {
+        month: "short",
+        year: "numeric",
+      }
+    );
+  } else if (startDate) {
+    endStr = translations.dates.present;
+  }
 
   // Calculate duration
   let years = end && start ? end.getFullYear() - start.getFullYear() : 0;
