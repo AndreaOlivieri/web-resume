@@ -33,7 +33,8 @@ export interface ResumeData {
     }>;
   }>;
   education: Array<{
-    date: string;
+    startDate: string;
+    endDate: string | null;
     degree: string;
     institution: string;
     level?: string;
@@ -47,7 +48,8 @@ export interface ResumeData {
     level: string;
   }>;
   certifications: Array<{
-    date: string;
+    startDate: string;
+    endDate: string | null;
     title: string;
   }>;
   footerNote: string;

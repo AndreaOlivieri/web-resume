@@ -46,12 +46,17 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
             label={labels.experience}
             language={language}
           />
-          <ResumeEducation education={education} label={labels.education} />
+          <ResumeEducation
+            education={education}
+            label={labels.education}
+            language={language}
+          />
           <ResumeSkills skills={skills} label={labels.skills} />
           <ResumeLanguages languages={languages} label={labels.languages} />
           <ResumeCertifications
             certifications={certifications}
             label={labels.certifications}
+            language={language}
           />
 
           {/* Footer Note */}

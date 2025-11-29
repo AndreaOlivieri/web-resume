@@ -1,14 +1,17 @@
 import React from "react";
 import { ResumeData } from "../../types/resume";
+import { formatPeriod } from "../../utils/date";
 
 interface ResumeCertificationsProps {
   certifications: ResumeData["certifications"];
   label: string;
+  language: "it" | "en";
 }
 
 export const ResumeCertifications: React.FC<ResumeCertificationsProps> = ({
   certifications,
   label,
+  language,
 }) => {
   return (
     <section>
@@ -16,12 +19,16 @@ export const ResumeCertifications: React.FC<ResumeCertificationsProps> = ({
         {label}
       </h2>
       <div className="space-y-2 text-[11px] text-gray-600">
-        {certifications.map((cert, index) => (
-          <div key={index}>
-            <p className="text-[10px] text-gray-500">{cert.date}</p>
-            <p className="font-bold text-gray-900">{cert.title}</p>
-          </div>
-        ))}
+        {certifications.map((cert, index) => {
+          const date = formatPeriod(cert.startDate, cert.endDate, language);
+
+          return (
+            <div key={index}>
+              <p className="text-[10px] text-gray-500">{date}</p>
+              <p className="font-bold text-gray-900">{cert.title}</p>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

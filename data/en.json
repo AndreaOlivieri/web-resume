@@ -163,17 +163,20 @@
   ],
   "education": [
     {
-      "date": "Oct 2013",
+      "startDate": "2013-10",
+      "endDate": "2013-10",
       "degree": "State Technical Superior and qualification for the profession of Engineer (107/110)",
       "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
     },
     {
-      "date": "Jan 2013 - Mar 2017",
+      "startDate": "2013-01",
+      "endDate": "2017-03",
       "degree": "Master's Degree in Computer Engineering (105/110)",
       "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
     },
     {
-      "date": "Oct 2009 - Jul 2013",
+      "startDate": "2009-10",
+      "endDate": "2013-07",
       "degree": "Bachelor's Degree in Computer Engineering (94/110)",
       "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
     }
@@ -282,16 +285,30 @@
   ],
   "certifications": [
     {
-      "date": "Sep 2024 - Present",
+      "startDate": "2024-09",
+      "endDate": null,
       "title": "AI Online Certifications - Learnn, Udemy, Linkedin"
     },
-    { "date": "Oct 2023", "title": "Meta Front-End Developer - Meta" },
-    { "date": "Apr 2023", "title": "Meta React Native - Meta" },
     {
-      "date": "Oct 2020",
+      "startDate": "2023-10",
+      "endDate": "2023-10",
+      "title": "Meta Front-End Developer - Meta"
+    },
+    {
+      "startDate": "2023-04",
+      "endDate": "2023-04",
+      "title": "Meta React Native - Meta"
+    },
+    {
+      "startDate": "2020-10",
+      "endDate": "2020-10",
       "title": "B2 First - Cambridge University Press & Assessment English"
     },
-    { "date": "Jul 2019", "title": "Spoken English CEFR Level B2.4 - Speexx" }
+    {
+      "startDate": "2019-07",
+      "endDate": "2019-07",
+      "title": "Spoken English CEFR Level B2.4 - Speexx"
+    }
   ],
   "footerNote": "I authorize the processing of my personal data contained in my curriculum vitae based on art. 13 of Legislative Decree 196/2003 and art. 13 GDPR 679/16.",
   "labels": {
