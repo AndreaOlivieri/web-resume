@@ -1,8 +1,10 @@
 export const formatPeriod = (
-  startDate: string,
+  startDate: string | undefined,
   endDate: string | null | undefined,
   language: "it" | "en"
-): string => {
+): string | undefined => {
+  if (!startDate) return undefined;
+
   const start = startDate ? new Date(startDate) : null;
   const end = endDate ? new Date(endDate) : startDate ? new Date() : null;
 
@@ -71,6 +73,8 @@ export const formatPeriod = (
   if (startStr && endStr)
     return `${capitalize(startStr)} - ${capitalize(endStr)} (${duration})`;
   if (endStr) return `${capitalize(endStr)}`;
+
+  return undefined;
 };
 
 // Capitalize first letter of months (for Italian mostly, as English is auto-capitalized)

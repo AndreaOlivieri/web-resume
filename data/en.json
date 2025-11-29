@@ -1,188 +1,109 @@
 {
   "header": {
-    "name": "Andrea Olivieri",
     "title": "Computer Engineer | Tech Lead | Senior Consultant",
     "subTitle": "Front-End & Mobile Developer",
-    "contact": {
-      "location": "Rome, Italy"
-    }
+    "location": "Rome, Italy"
   },
   "summary": "I am a Computer Engineer, Web & Mobile Developer with 10 years of experience. Holder of Professional Certificates. Tech Lead in complex projects. I designed and developed an innovative micro-frontend architecture and managed a team of over 10 developers. I am a technology enthusiast and in my free time I dedicate myself to learning new frameworks and libraries.",
-  "experience": [
-    {
-      "company": "Open Reply",
+  "experience": {
+    "open_reply": {
       "location": "Via Cavour 59, 00184, Rome, Italy",
-      "startDate": "2021-02",
-      "endDate": null,
       "role": "Tech Lead | Senior Consultant | Front-end Expert (Computer Engineer)",
-      "logoText": "REPLY",
-      "logo": "/assets/open_reply.svg",
       "description": "I worked with several clients:",
-      "projects": [
-        {
-          "company": "Open Reply",
-          "logoText": "Open Reply",
+      "projects": {
+        "open_reply": {
           "description": "I worked as Tech Lead on several PoCs for Open Reply, contributing to the design and development of innovative cross-platform applications. These applications stand out because the entire user interface is controlled by AI agents. The main technologies used are: Python, OpenAI, OpenSearch, React Native, Expo."
         },
-        {
-          "company": "PhotoSì",
-          "logoText": "PhotoSì",
-          "logo": "/assets/photosi.svg",
+        "photosi": {
           "description": "I worked on the PhotoSì project as a Frontend expert, contributing to the development of the customer's photo book editor for mobile and web applications. The main technologies used in this project are: React Native, Expo, Typescript, Javascript."
         },
-        {
-          "company": "Church's",
-          "logoText": "Church's",
-          "logo": "/assets/churchs.png",
+        "churchs": {
           "description": "I worked on the Church's project as a Frontend expert, contributing to the improvement of the user experience of the Church's website. The main technologies used in this project are: Vue 3, Typescript, Javascript."
         },
-        {
-          "company": "Mediaset",
-          "logoText": "MEDIASET",
-          "logo": "/assets/mediaset.png",
+        "mediaset": {
           "description": "I worked on the Mediaset project as a Frontend expert, contributing to the development of a new Smart TV application that allows users to watch movies, TV series and live channels offered by Mediaset. The main technologies used in this project are: React Native, Typescript, Javascript, Storybook."
         },
-        {
-          "company": "Unipol",
-          "logoText": "Unipol",
-          "logo": "/assets/logo_unipol.svg",
+        "unipol": {
           "description": "I worked on the UnipolSai project as Tech Lead and Frontend expert, leading the design and development of a new micro-frontend architecture based on Module Federation. I managed a dynamic team of over 10 developers. The main development tools used in this project are: React.js and Redux, Angular 14, Typescript, Javascript ES6, Node.js, Express, Webpack, Module Federation Plugin, Jest, React Testing Library, HTML 5, CSS 3, CSS in JS, SCSS/SASS, Git, Lerna/Nx."
         },
-        {
-          "company": "British American Tobacco",
-          "logoText": "BAT",
-          "logo": "/assets/bat.svg",
+        "bat": {
           "description": "I worked on the Vuse.com project as a Frontend expert, contributing to the development of a web application for the management and use of the MyVuse electronic cigarette, as well as the creation of an interactive browser based on BLE technology. The main technologies used in this project include: React.js and Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
         },
-        {
-          "company": "Prada",
-          "logoText": "PRADA",
-          "logo": "/assets/prada.png",
+        "prada": {
           "description": "I worked on the e-commerce projects of Prada, Miu Miu and Car Shoe as a Frontend expert. The main development tools used in this project are: Typescript, Javascript ES6, jQuery, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
         }
-      ]
+      }
     },
-    {
-      "company": "Accenture",
+    "accenture": {
       "location": "Via Sciangai 53, 00144, Rome, Italy",
-      "startDate": "2019-10",
-      "endDate": "2021-02",
       "role": "Application Development Senior Analyst | Frontend Expert | Computer Engineer",
-      "logoText": "accenture",
-      "logo": "/assets/accenture.jpeg",
       "description": "I worked with several clients:",
-      "projects": [
-        {
-          "company": "Skoda",
+      "projects": {
+        "skoda": {
           "role": "Frontend Developer",
-          "logoText": "Skoda",
-          "logo": "/assets/skoda.png",
           "description": "I served as a Frontend Expert on the e-commerce of Škoda, contributing to the development of a cutting-edge web platform. My role involved crafting an engaging and user-friendly interface to elevate the overall user experience. The main development tools used in this project: ReactJs e Redux, Typescript, Javascript ES6, Webpack, Module Federation Plugin, HTML 5, CSS 3, Git, Lerna/Nx"
         },
-        {
-          "company": "Leonardo s.p.a.",
+        "leonardo": {
           "role": "Frontend Developer",
-          "logoText": "Leonardo s.p.a.",
-          "logo": "/assets/leonardo.png",
           "description": "I served as a Frontend developer on the Euronaval project, contributing to the development of the web platform. My role involved crafting an engaging and user-friendly interface to elevate the overall user experience. The main development tools used in this project: ReactJs e Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, Git"
         },
-        {
-          "company": "e-GEOS",
-          "logoText": "e-GEOS",
-          "logo": "/assets/egeos.png",
+        "egeos": {
           "description": "I served as a Frontend Expert on the e-GEO project, contributing to design, build and development of a cutting-edge web platform called CLEOS. The main development tools used in this project: ReactJs e Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, Git"
         },
-        {
-          "company": "MSC Cruises",
-          "logoText": "MSC Cruises",
-          "logo": "/assets/msc_crociere.jpg",
+        "msc": {
           "description": "I served as a Frontend developer on the website of MSC Crociere, contributing to the development of the web platform. The main development tools used in this project: ReactJs e Redux, Angular 10+, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git"
         }
-      ]
+      }
     },
-    {
-      "company": "Social Academy s.r.l.",
+    "social_academy": {
       "location": "Via Catone 3, 00192, Rome, Italy",
-      "startDate": "2017-02",
-      "endDate": "2019-10",
       "role": "Full-Stack developer | Business in Cloud's software architect | Software Engineer",
-      "logoText": "Social Academy s.r.l.",
-      "logo": "/assets/social_academy.jpeg",
       "description": "I projected, developed, and tested the software components of Social Academy’s platforms: Marketplace (e-commerce of formation courses), Skill Games (online questionaries that let you discover your vocation and potential skills), MySA (a platform where you have access to your course lessons and videos), Dashboard (a management platform that let you manage your academy, courses, leads and email campaigns) and BusinessInCloud (a marketing platform that let you create funnel and landing pages). I used and/or integrated into Social Academy external services like Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform and Zapier. I used to use HTML 5, CSS 3, Ruby on Rails, ReactJs, AngularJs, Javascript, JQuery, AWS and Heroku to develop and manage all Social Academy’s platforms."
     },
-    {
+    "nyu": {
       "company": "New York University",
       "location": "New York, NY, USA",
-      "startDate": "2016-09",
-      "endDate": "2017-03",
       "role": "Internship",
       "logoText": "New York University",
-      "logo": "/assets/nyu.jpeg",
       "description": "I worked on Terraling project, a collection of searchable linguistic databases that allows users to discover which properties (morphological, syntactic, and semantic) characterize a language, as well as how these properties relate across languages."
     },
-    {
-      "company": "The City s.r.l.s.",
+    "the_city": {
       "location": "Via In Arcione 98, 00187, Rome, Italy",
-      "startDate": "2015-07",
-      "endDate": "2016-02",
       "role": "Full-Stack developer",
-      "logoText": "The City s.r.l.s.",
-      "logo": "/assets/the_city.jpeg",
       "description": "I worked for a real estate agency where I developed its online marketplace using HTML 5, CSS 3, Javascript, JQuery, Bootstrap for the client side. The server side has been developed with Ruby on Rails."
     },
-    {
-      "company": "InnovAction Lab - Fashape",
+    "innovaction_lab": {
       "location": "Via In Arcione 98, 00187, Rome, Italy",
-      "startDate": "2015-02",
-      "endDate": "2015-07",
       "role": "CTO | Full-Stack developer",
-      "logoText": "InnovAction Lab - Fashape",
-      "logo": "/assets/innovaction_lab.jpeg",
       "description": "InnovAction Lab is a training course that gives you the ability to turn your innovative idea into a startup. I and my team created our startup called “Fashape” to help people to find the best men’s fashion products through a daily wish list of most voted objects from social networks. I projected and developed the entire platform using MeteorJS framework and Microsoft Azure cloud resources."
     },
-    {
-      "company": "H.S.C. s.r.l.",
+    "hsc": {
       "location": "Via Elio Lampridio Cerva 103, 00143, Rome, Italy",
-      "startDate": "2013-09",
-      "endDate": "2013-09",
       "role": "Software Developer",
-      "logoText": "H.S.C. s.r.l.",
-      "logo": "/assets/hsc.jpeg",
       "description": "I have collaborated for developing the company's enterprise software, using Delphi programming language and PL/SQL for database queries."
     },
-    {
-      "company": "I.S.T.C. C.N.R.",
+    "istc": {
       "location": "Via S. Martino della Battaglia 44, 00185, Rome, Italy",
-      "startDate": "2013-04",
-      "endDate": "2013-07",
       "role": "Internship",
-      "logoText": "I.S.T.C. C.N.R.",
-      "logo": "/assets/istc_cnr.png",
       "description": "I developed a desktop application to a robotic platform with the aim of analyzing the person's posture and balance through three simple exercises engines. The application was developed in C# and working closely with the Kinect sensor for tracking posture."
     }
-  ],
-  "education": [
-    {
-      "startDate": "2013-10",
-      "endDate": "2013-10",
+  },
+  "education": {
+    "state_exam": {
       "degree": "State Technical Superior and qualification for the profession of Engineer (107/110)",
       "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
     },
-    {
-      "startDate": "2013-01",
-      "endDate": "2017-03",
+    "master": {
       "degree": "Master's Degree in Computer Engineering (105/110)",
       "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
     },
-    {
-      "startDate": "2009-10",
-      "endDate": "2013-07",
+    "bachelor": {
       "degree": "Bachelor's Degree in Computer Engineering (94/110)",
       "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
     }
-  ],
-  "skills": [
-    {
+  },
+  "skills": {
+    "industry": {
       "category": "Industry Knowledge",
       "items": [
         "Web, Mobile & Software Development",
@@ -195,66 +116,22 @@
         "TDD"
       ]
     },
-    {
-      "category": "Mobile Development",
-      "items": ["React Native", "Expo"]
+    "mobile": {
+      "category": "Mobile Development"
     },
-    {
-      "category": "Web Development - Front-End",
-      "items": [
-        "HTML5",
-        "CSS3",
-        "SASS",
-        "SCSS",
-        "Bootstrap",
-        "Foundation",
-        "CSS-in-JS",
-        "Styled Components",
-        "Flexbox",
-        "Javascript",
-        "ES6",
-        "Promise",
-        "Async Await",
-        "Typescript",
-        "React",
-        "Redux",
-        "Angular 9+",
-        "RxJS",
-        "Vue",
-        "Vuex",
-        "JQuery",
-        "Next.js",
-        "AJAX",
-        "Webpack",
-        "Module Federation",
-        "JSON",
-        "Jest",
-        "Lerna/NX",
-        "Storybook"
-      ]
+    "frontend": {
+      "category": "Web Development - Front-End"
     },
-    {
-      "category": "Web Development - Back-End",
-      "items": [
-        "Node.js",
-        "Express",
-        "GraphQL",
-        "REST API",
-        "Amazon Web Services (AWS)",
-        "Microsoft Azure",
-        "Heroku",
-        "Server Side Rendering"
-      ]
+    "backend": {
+      "category": "Web Development - Back-End"
     },
-    {
-      "category": "Databases",
-      "items": ["PostgreSQL", "MySQL"]
+    "database": {
+      "category": "Databases"
     },
-    {
-      "category": "Programming Languages",
-      "items": ["Python", "Ruby", "Java"]
+    "languages": {
+      "category": "Programming Languages"
     },
-    {
+    "soft": {
       "category": "Soft Skills",
       "items": [
         "Problem Solving",
@@ -266,44 +143,31 @@
         "Adaptability"
       ]
     },
-    {
-      "category": "Development Tools",
-      "items": [
-        "Postman",
-        "Git/Gitlab",
-        "Visual Code",
-        "Miro",
-        "Figma",
-        "Chrome Dev Tools",
-        "Bash Shell"
-      ]
+    "tools": {
+      "category": "Development Tools"
     }
-  ],
-  "languages": [
-    { "name": "Italian", "level": "Native" },
-    { "name": "English", "level": "Upper Intermediate (B2 level)" }
-  ],
-  "certifications": [
-    {
+  },
+  "languages": {
+    "italian": {
+      "name": "Italian",
+      "level": "Native"
+    },
+    "english": {
+      "name": "English",
+      "level": "Upper Intermediate (B2 level)"
+    }
+  },
+  "certifications": {
+    "online": {
       "title": "AI Online Certifications - Learnn, Udemy, Linkedin"
     },
-    {
-      "endDate": "2023",
-      "title": "Meta Front-End Developer - Meta"
-    },
-    {
-      "endDate": "2023",
-      "title": "Meta React Native - Meta"
-    },
-    {
-      "endDate": "2020",
+    "b2": {
       "title": "B2 First - Cambridge University Press & Assessment English"
     },
-    {
-      "endDate": "2019",
+    "speexx": {
       "title": "Spoken English CEFR Level B2.4 - Speexx"
     }
-  ],
+  },
   "footerNote": "I authorize the processing of my personal data contained in my curriculum vitae based on art. 13 of Legislative Decree 196/2003 and art. 13 GDPR 679/16.",
   "labels": {
     "experience": "EXPERIENCE",

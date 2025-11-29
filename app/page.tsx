@@ -4,8 +4,9 @@ import React, { useRef } from "react";
 import { useReactToPrint } from "react-to-print";
 import { Resume } from "@/components/Resume";
 import { Menu } from "@/components/Menu";
-import itData from "../data/it.json";
-import enData from "../data/en.json";
+import itTranslations from "../data/it.json";
+import enTranslations from "../data/en.json";
+import { resumeData } from "../data/data";
 
 const contactInfo = {
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "",
@@ -14,27 +15,53 @@ const contactInfo = {
   linkedin: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || "",
 };
 
-const resumeData = {
-  it: {
-    ...itData,
-    header: {
-      ...itData.header,
-      contact: {
-        ...itData.header.contact,
-        ...contactInfo,
-      },
-    },
-  },
-  en: {
-    ...enData,
-    header: {
-      ...enData.header,
-      contact: {
-        ...enData.header.contact,
-        ...contactInfo,
-      },
-    },
-  },
+// Helper function to get value from object by dot notation path
+const getTranslation = (obj: any, path: string) => {
+  return path.split(".").reduce((acc, part) => acc && acc[part], obj) || path;
+};
+
+// Recursive function to translate object
+const translateData = (data: any, translations: any): any => {
+  if (typeof data === "string") {
+    // Try to translate the string if it matches a key path
+    const translation = getTranslation(translations, data);
+    // If translation is same as key, it might not be a key or missing translation.
+    // However, some fields might be URLs or dates which are strings but not keys.
+    // Our keys are fairly specific (e.g. "header.", "experience.").
+    // Let's check if the translation exists and is different from the key, OR if the key follows our pattern.
+    // A safer check: does the key exist in translations?
+    const exists = pathExists(translations, data);
+    return exists ? translation : data;
+  }
+
+  if (Array.isArray(data)) {
+    return data.map((item) => translateData(item, translations));
+  }
+
+  if (typeof data === "object" && data !== null) {
+    const result: any = {};
+    for (const key in data) {
+      result[key] = translateData(data[key], translations);
+    }
+    return result;
+  }
+
+  return data;
+};
+
+const pathExists = (obj: any, path: string) => {
+  const parts = path.split(".");
+  let current = obj;
+  for (const part of parts) {
+    if (
+      current === undefined ||
+      current === null ||
+      typeof current !== "object"
+    )
+      return false;
+    current = current[part];
+  }
+  return current !== undefined;
 };
 
 export default function Home() {
@@ -47,6 +74,21 @@ export default function Home() {
   });
 
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  // Merge contact info into header
+  const dataWithContact = {
+    ...resumeData,
+    header: {
+      ...resumeData.header,
+      contact: {
+        ...resumeData.header.contact,
+        ...contactInfo,
+      },
+    },
+  };
+
+  const translations = language === "it" ? itTranslations : enTranslations;
+  const translatedData = translateData(dataWithContact, translations);
 
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col items-center py-10 relative overflow-hidden">
@@ -83,11 +125,7 @@ export default function Home() {
       {/* Resume Display Area */}
       <div className="overflow-auto w-full flex justify-center px-4">
         <div className="transform scale-90 md:scale-100 origin-top transition-transform duration-300">
-          <Resume
-            ref={resumeRef}
-            data={resumeData[language]}
-            language={language}
-          />
+          <Resume ref={resumeRef} data={translatedData} language={language} />
         </div>
       </div>
     </div>
