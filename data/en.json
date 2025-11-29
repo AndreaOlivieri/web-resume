@@ -69,7 +69,7 @@
       "endDate": "2021-02",
       "role": "Application Development Senior Analyst | Frontend Expert | Computer Engineer",
       "logoText": "accenture",
-      "logo": "/assets/accenture.png",
+      "logo": "/assets/accenture.jpeg",
       "description": "I worked with several clients:",
       "projects": [
         {
@@ -107,7 +107,7 @@
       "endDate": "2019-10",
       "role": "Full-Stack developer | Business in Cloud's software architect | Software Engineer",
       "logoText": "Social Academy s.r.l.",
-      "logo": "/assets/social_academy.png",
+      "logo": "/assets/social_academy.jpeg",
       "description": "I projected, developed, and tested the software components of Social Academy’s platforms: Marketplace (e-commerce of formation courses), Skill Games (online questionaries that let you discover your vocation and potential skills), MySA (a platform where you have access to your course lessons and videos), Dashboard (a management platform that let you manage your academy, courses, leads and email campaigns) and BusinessInCloud (a marketing platform that let you create funnel and landing pages). I used and/or integrated into Social Academy external services like Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform and Zapier. I used to use HTML 5, CSS 3, Ruby on Rails, ReactJs, AngularJs, Javascript, JQuery, AWS and Heroku to develop and manage all Social Academy’s platforms."
     },
     {
@@ -117,7 +117,7 @@
       "endDate": "2017-03",
       "role": "Internship",
       "logoText": "New York University",
-      "logo": "/assets/new_york_university.png",
+      "logo": "/assets/nyu.jpeg",
       "description": "I worked on Terraling project, a collection of searchable linguistic databases that allows users to discover which properties (morphological, syntactic, and semantic) characterize a language, as well as how these properties relate across languages."
     },
     {
@@ -127,7 +127,7 @@
       "endDate": "2016-02",
       "role": "Full-Stack developer",
       "logoText": "The City s.r.l.s.",
-      "logo": "/assets/the_city.png",
+      "logo": "/assets/the_city.jpeg",
       "description": "I worked for a real estate agency where I developed its online marketplace using HTML 5, CSS 3, Javascript, JQuery, Bootstrap for the client side. The server side has been developed with Ruby on Rails."
     },
     {
@@ -137,7 +137,7 @@
       "endDate": "2015-07",
       "role": "CTO | Full-Stack developer",
       "logoText": "InnovAction Lab - Fashape",
-      "logo": "/assets/fashape.png",
+      "logo": "/assets/innovaction_lab.jpeg",
       "description": "InnovAction Lab is a training course that gives you the ability to turn your innovative idea into a startup. I and my team created our startup called “Fashape” to help people to find the best men’s fashion products through a daily wish list of most voted objects from social networks. I projected and developed the entire platform using MeteorJS framework and Microsoft Azure cloud resources."
     },
     {
@@ -147,7 +147,7 @@
       "endDate": "2013-09",
       "role": "Software Developer",
       "logoText": "H.S.C. s.r.l.",
-      "logo": "/assets/hsc.png",
+      "logo": "/assets/hsc.jpeg",
       "description": "I have collaborated for developing the company's enterprise software, using Delphi programming language and PL/SQL for database queries."
     },
     {
@@ -157,7 +157,7 @@
       "endDate": "2013-07",
       "role": "Internship",
       "logoText": "I.S.T.C. C.N.R.",
-      "logo": "/assets/istc.png",
+      "logo": "/assets/istc_cnr.png",
       "description": "I developed a desktop application to a robotic platform with the aim of analyzing the person's posture and balance through three simple exercises engines. The application was developed in C# and working closely with the Kinect sensor for tracking posture."
     }
   ],
