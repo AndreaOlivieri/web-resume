@@ -304,7 +304,9 @@ export const resumeData = {
       title: "certifications.speexx.title",
     },
   ],
-  footerNote: "footerNote",
+  footer: {
+    note: "footerNote",
+  },
   labels: {
     experience: "labels.experience",
     education: "labels.education",

@@ -1,7 +1,6 @@
-import React, { forwardRef } from "react";
+import { forwardRef } from "react";
 import { ResumeData } from "../types/resume";
 import { ResumeHeader } from "./resume/ResumeHeader";
-import { ResumeSummary } from "./resume/ResumeSummary";
 import { ResumeExperience } from "./resume/ResumeExperience";
 import { ResumeEducation } from "./resume/ResumeEducation";
 import { ResumeSkills } from "./resume/ResumeSkills";
@@ -22,7 +21,7 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
       skills,
       languages,
       certifications,
-      footerNote,
+      footer,
       labels,
     } = data;
 
@@ -39,7 +38,6 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
           }}
         >
           <ResumeHeader header={header} />
-          <ResumeSummary summary={header.summary} />
           <ResumeExperience
             experience={experience}
             label={labels.experience}
@@ -60,7 +58,7 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
 
           {/* Footer Note */}
           <div className="mt-8 pt-4 border-t border-gray-300 text-[9px] text-gray-500 text-center">
-            {footerNote}
+            {footer.note}
           </div>
         </div>
       </div>

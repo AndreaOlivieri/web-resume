@@ -52,7 +52,9 @@ export interface ResumeData {
     endDate?: string | null;
     title: string;
   }[];
-  footerNote: string;
+  footer: {
+    note: string;
+  };
   labels: {
     experience: string;
     education: string;
