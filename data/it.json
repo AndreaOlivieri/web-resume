@@ -14,7 +14,7 @@
       "location": "Via Cavour 59, 00184, Roma, Italia",
       "startDate": "2021-02",
       "endDate": null,
-      "role": "Tech Lead | Senior Consultant | Esperto Front-end (Ingegnere Informatico)",
+      "role": "Tech Lead | Senior Consultant | Esperto Front-end | Ingegnere Informatico",
       "logoText": "REPLY",
       "logo": "/assets/open_reply.svg",
       "description": "Ho lavorato con diversi clienti:",
@@ -67,10 +67,10 @@
       "location": "Via Sciangai 53, 00144, Rome, Italy",
       "startDate": "2019-10",
       "endDate": "2021-02",
-      "role": "Application Development Senior Analyst | Frontend Expert | Computer Engineer",
+      "role": "Application Development Senior Analyst | Frontend Expert | Ingegnere Informatico",
       "logoText": "accenture",
       "logo": "/assets/accenture.png",
-      "description": "I worked with several clients:",
+      "description": "Ho lavorato con diversi clienti:",
       "projects": [
         {
           "company": "Skoda",
@@ -102,10 +102,10 @@
     },
     {
       "company": "Social Academy s.r.l.",
-      "location": "Via Catone 3, 00192, Rome, Italy",
+      "location": "Via Catone 3, 00192, Roma, Italia",
       "startDate": "2017-02",
       "endDate": "2019-10",
-      "role": "Full-Stack developer | Business in Cloud's software architect | Software Engineer",
+      "role": "Sviluppatore Full-Stack | Architetto Software di Business in Cloud | Ingegnere Informatico",
       "logoText": "Social Academy s.r.l.",
       "logo": "/assets/social_academy.png",
       "description": "Ho progettato, sviluppato e testato i componenti software delle piattaforme di Social Academy: Marketplace (e-commerce di corsi di formazione), Skill Games (quiz online che ti permettono di scoprire la tua vocazione e potenziali competenze), MySA (una piattaforma a cui hai accesso alle lezioni e ai video dei tuoi corsi), Dashboard (una piattaforma di gestione che ti permette di gestire la tua accademia, i corsi, i lead e le campagne email) e BusinessInCloud (una piattaforma di marketing che ti permette di creare funnel e landing page). Ho utilizzato e/o integrato servizi esterni di Social Academy come Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform e Zapier. In passato, ho utilizzato HTML 5, CSS 3, Ruby on Rails, ReactJs, AngularJs, Javascript, JQuery, AWS e Heroku per sviluppare e gestire tutte le piattaforme di Social Academy."
@@ -115,7 +115,7 @@
       "location": "New York, NY, USA",
       "startDate": "2016-09",
       "endDate": "2017-03",
-      "role": "Internship",
+      "role": "Tirocinio",
       "logoText": "Università di New York",
       "logo": "/assets/new_york_university.png",
       "description": "Ho lavorato al progetto Terraling, una collezione di database linguistici che permettono agli utenti di scoprire quali proprietà (morfologiche, sintattiche e semantiche) caratterizzano una lingua e quali differenze esistono tra le varie lingue."
@@ -125,7 +125,7 @@
       "location": "Via In Arcione 98, 00187, Roma, Italia",
       "startDate": "2015-07",
       "endDate": "2016-02",
-      "role": "Full-Stack developer",
+      "role": "Sviluppatore Full-Stack",
       "logoText": "The City s.r.l.s.",
       "logo": "/assets/the_city.png",
       "description": "Ho lavorato per un'agenzia immobiliare dove ho sviluppato il suo marketplace online utilizzando HTML 5, CSS 3, Javascript, JQuery, Bootstrap per il lato client. Il lato server è stato sviluppato con Ruby on Rails."
@@ -135,7 +135,7 @@
       "location": "Via In Arcione 98, 00187, Roma, Italia",
       "startDate": "2015-02",
       "endDate": "2015-07",
-      "role": "CTO | Full-Stack developer",
+      "role": "CTO | Sviluppatore Full-Stack",
       "logoText": "InnovAction Lab - Fashape",
       "logo": "/assets/fashape.png",
       "description": "InnovAction Lab è un corso di formazione che ti da l’abilità di trasformare la tua idea innovativa in una startup. Io ed il mio team abbiamo creato “Fashape” per aiutare le persone a trovare i migliori prodotti maschili sul mercato attraverso una lista degli oggetti più richiesti dai social networks. Ho progettato e sviluppato l’intera piattaforma usando il framework MeteorJS e i servizi offerti da Microsoft Azure."
@@ -145,17 +145,17 @@
       "location": "Via Elio Lampridio Cerva 103, 00143, Roma, Italia",
       "startDate": "2013-09",
       "endDate": "2013-09",
-      "role": "Software Developer",
+      "role": "Sviluppatore Software",
       "logoText": "H.S.C. s.r.l.",
       "logo": "/assets/hsc.png",
       "description": "Ho collaborato allo sviluppo del software aziendale dell'azienda, utilizzando il linguaggio di programmazione Delphi e PL/SQL per le query sul database."
     },
     {
       "company": "I.S.T.C. C.N.R.",
-      "location": "Via S. Martino della Battaglia 44, 00185, Rome, Italy",
+      "location": "Via S. Martino della Battaglia 44, 00185, Roma, Italia",
       "startDate": "2013-04",
       "endDate": "2013-07",
-      "role": "Internship",
+      "role": "Tirocinio",
       "logoText": "I.S.T.C. C.N.R.",
       "logo": "/assets/istc.png",
       "description": "Ho sviluppato un applicazione desktop per una piattaforma robotica con l’obiettivo di analizzare la postura di una persona attraverso tre semplici esercizi motori. L’applicazione è stata sviluppata in C# con l’ausilio del sensore Kinect per il tracciamento della postura"
