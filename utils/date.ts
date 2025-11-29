@@ -1,9 +1,14 @@
+import itTranslations from "../data/it.json";
+import enTranslations from "../data/en.json";
+
 export const formatPeriod = (
   startDate: string | undefined,
   endDate: string | null | undefined,
   language: "it" | "en"
 ): string | undefined => {
   if (!startDate) return undefined;
+
+  const translations = language === "it" ? itTranslations : enTranslations;
 
   const start = startDate ? new Date(startDate) : null;
   const end = endDate ? new Date(endDate) : startDate ? new Date() : null;
@@ -24,9 +29,7 @@ export const formatPeriod = (
           year: "numeric",
         }
       )
-    : language === "it"
-    ? "Oggi"
-    : "Present";
+    : translations.dates.present;
 
   // Calculate duration
   let years = end && start ? end.getFullYear() - start.getFullYear() : 0;
@@ -47,26 +50,14 @@ export const formatPeriod = (
   let duration = "";
   if (years > 0) {
     duration += `${years} ${
-      language === "it"
-        ? years === 1
-          ? "anno"
-          : "anni"
-        : years === 1
-        ? "year"
-        : "years"
+      years === 1 ? translations.dates.year : translations.dates.years
     }`;
   }
 
   if (months > 0) {
     if (duration) duration += " ";
     duration += `${months} ${
-      language === "it"
-        ? months === 1
-          ? "mese"
-          : "mesi"
-        : months === 1
-        ? "month"
-        : "months"
+      months === 1 ? translations.dates.month : translations.dates.months
     }`;
   }
 

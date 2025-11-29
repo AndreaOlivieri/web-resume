@@ -175,5 +175,12 @@
     "skills": "SKILLS",
     "languages": "LINGUE",
     "certifications": "CERTIFICAZIONI"
+  },
+  "dates": {
+    "present": "Oggi",
+    "year": "anno",
+    "years": "anni",
+    "month": "mese",
+    "months": "mesi"
   }
 }
