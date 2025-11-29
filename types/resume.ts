@@ -3,6 +3,7 @@ export interface ResumeData {
     name: string;
     title: string;
     subTitle: string;
+    summary: string;
     contact: {
       location: string;
       email: string;
@@ -11,7 +12,6 @@ export interface ResumeData {
       linkedin: string;
     };
   };
-  summary: string;
   experience: Array<{
     company: string;
     location?: string;
@@ -47,11 +47,11 @@ export interface ResumeData {
     name: string;
     level: string;
   }>;
-  certifications: Array<{
-    startDate: string;
-    endDate: string | null;
+  certifications: {
+    startDate?: string;
+    endDate?: string | null;
     title: string;
-  }>;
+  }[];
   footerNote: string;
   labels: {
     experience: string;

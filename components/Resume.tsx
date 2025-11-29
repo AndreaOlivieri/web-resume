@@ -17,7 +17,6 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
   ({ data, language }, ref) => {
     const {
       header,
-      summary,
       experience,
       education,
       skills,
@@ -40,7 +39,7 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
           }}
         >
           <ResumeHeader header={header} />
-          <ResumeSummary summary={summary} />
+          <ResumeSummary summary={header.summary} />
           <ResumeExperience
             experience={experience}
             label={labels.experience}

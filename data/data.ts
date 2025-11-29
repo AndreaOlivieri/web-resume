@@ -3,11 +3,11 @@ export const resumeData = {
     name: "Andrea Olivieri",
     title: "header.title",
     subTitle: "header.subTitle",
+    summary: "summary",
     contact: {
       location: "header.location",
     },
   },
-  summary: "summary",
   experience: [
     {
       company: "Open Reply",
