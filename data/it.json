@@ -285,28 +285,22 @@
   ],
   "certifications": [
     {
-      "startDate": "2024-09",
-      "endDate": null,
-      "title": "Certificazioni AI Corso Online - Learnn, Udemy, Linkedin"
+      "title": "Certificazioni di Corsi Online - Coursera, Udemy, LinkedIn Learning"
     },
     {
-      "startDate": "2023-10",
-      "endDate": "2023-10",
+      "endDate": "2023",
       "title": "Meta Front-End Developer - Meta"
     },
     {
-      "startDate": "2023-04",
-      "endDate": "2023-04",
+      "endDate": "2023",
       "title": "Meta React Native - Meta"
     },
     {
-      "startDate": "2020-10",
-      "endDate": "2020-10",
+      "endDate": "2020",
       "title": "B2 First - Cambridge University Press & Assessment English"
     },
     {
-      "startDate": "2019-07",
-      "endDate": "2019-07",
+      "endDate": "2019",
       "title": "Spoken English CEFR Level B2.4 - Speexx"
     }
   ],
