@@ -12,25 +12,25 @@
       "description": "Ho lavorato con diversi clienti:",
       "projects": {
         "open_reply": {
-          "description": "Ho lavorato come Tech Lead su diversi PoC per Open Reply, contribuendo alla progettazione e allo sviluppo di applicazioni cross-platform innovative. Queste applicazioni si distinguono perché l'intera interfaccia utente è controllata da agenti AI."
+          "description": "Ho guidato diversi PoC dedicati alla progettazione e allo sviluppo di applicazioni cross-platform innovative. Questi progetti si caratterizzano per un’interfaccia utente interamente orchestrata da agenti di intelligenza artificiale."
         },
         "photosi": {
-          "description": "Ho lavorato al progetto PhotoSì come esperto Frontend, contribuendo allo sviluppo dell'editor di fotolibri del cliente per applicazioni mobile e web."
+          "description": "Ho lavorato al progetto PhotoSì contribuendo allo sviluppo dell’editor di fotolibri, supportando il cliente sia nelle applicazioni mobile sia nella versione web."
         },
         "churchs": {
-          "description": "Ho lavorato al progetto Church's come esperto Frontend, contribuendo al miglioramento dell'esperienza utente del sito web di Church's."
+          "description": "Ho lavorato al progetto Church's contribuendo al miglioramento dell'esperienza utente del sito web di Church's."
         },
         "mediaset": {
-          "description": "Ho lavorato al progetto Mediaset come esperto Frontend, contribuendo allo sviluppo di una nuova applicazione Smart TV che consente agli utenti di guardare film, serie TV e canali live offerti da Mediaset."
+          "description": "Ho lavorato al progetto Mediaset contribuendo allo sviluppo di una nuova applicazione Smart TV che permette agli utenti di accedere a film, serie TV e canali live offerti dall’emittente."
         },
         "unipol": {
-          "description": "Ho lavorato al progetto UnipolSai come Tech Lead ed esperto Frontend, guidando la progettazione e lo sviluppo di una nuova architettura micro-frontend basata su Module Federation. Ho diretto un team dinamico di oltre 10 sviluppatori."
+          "description": "Ho lavorato al progetto UnipolSai, guidando la progettazione e lo sviluppo di una nuova architettura micro-frontend basata su Module Federation. Ho coordinato un team dinamico composto da oltre dieci sviluppatori."
         },
         "bat": {
-          "description": "Ho lavorato al progetto Vuse.com come esperto Frontend, contribuendo allo sviluppo di un'applicazione web per la gestione e l'utilizzo della sigaretta elettronica MyVuse, oltre alla creazione di un browser interattivo basato su tecnologia BLE."
+          "description": "Ho lavorato al progetto Vuse.com, contribuendo allo sviluppo di un’applicazione web per la configurazione e l’utilizzo della sigaretta elettronica MyVuse, oltre alla realizzazione di un browser interattivo basato su tecnologia BLE."
         },
         "prada": {
-          "description": "Ho lavorato sui progetti e-commerce di Prada, Miu Miu e Car Shoe come esperto Frontend."
+          "description": "Ho lavorato sui progetti e-commerce di Prada, Miu Miu e Car Shoe."
         }
       }
     },
@@ -40,25 +40,23 @@
       "description": "Ho lavorato con diversi clienti:",
       "projects": {
         "skoda": {
-          "role": "Frontend Developer",
-          "description": "Ho lavorato come Esperto Frontend nell'e-commerce di Škoda, contribuendo allo sviluppo di una piattaforma web all'avanguardia. Il mio ruolo prevedeva la creazione di un'interfaccia coinvolgente e intuitiva per migliorare l'esperienza utente complessiva."
+          "description": "Ho lavorato all’e-commerce di Škoda, contribuendo allo sviluppo di una piattaforma web all’avanguardia. Il mio ruolo includeva la progettazione di un’interfaccia intuitiva e coinvolgente, volta a migliorare l’esperienza utente complessiva."
         },
         "leonardo": {
-          "role": "Frontend Developer",
-          "description": "Ho lavorato come Frontend developer nel progetto Euronaval, contribuendo allo sviluppo della piattaforma web. Il mio ruolo prevedeva la creazione di un'interfaccia coinvolgente e intuitiva per migliorare l'esperienza utente complessiva."
+          "description": "Ho lavorato al progetto Euronaval, contribuendo allo sviluppo della piattaforma web e progettando un’interfaccia intuitiva e coinvolgente per ottimizzare l’esperienza utente complessiva."
         },
         "egeos": {
-          "description": "Ho lavorato come Esperto Frontend nel progetto e-GEO, contribuendo alla progettazione, costruzione e sviluppo di una piattaforma web all'avanguardia chiamata CLEOS."
+          "description": "Ho lavorato al progetto e-GEO, contribuendo alla progettazione e allo sviluppo di CLEOS, una piattaforma web all’avanguardia."
         },
         "msc": {
-          "description": "Ho lavorato come Frontend developer sul sito web di MSC Crociere, contribuendo allo sviluppo della piattaforma web."
+          "description": "Ho lavorato al sito web di MSC Crociere, contribuendo allo sviluppo e all’ottimizzazione della piattaforma web."
         }
       }
     },
     "social_academy": {
       "location": "Via Catone 3, 00192, Roma, Italia",
       "role": "Sviluppatore Full-Stack | Architetto Software di Business in Cloud | Ingegnere Informatico",
-      "description": "Ho progettato, sviluppato e testato i componenti software delle piattaforme di Social Academy: Marketplace (e-commerce di corsi di formazione), Skill Games (quiz online che ti permettono di scoprire la tua vocazione e potenziali competenze), MySA (una piattaforma a cui hai accesso alle lezioni e ai video dei tuoi corsi), Dashboard (una piattaforma di gestione che ti permette di gestire la tua accademia, i corsi, i lead e le campagne email) e BusinessInCloud (una piattaforma di marketing che ti permette di creare funnel e landing page). Ho utilizzato e/o integrato servizi esterni di Social Academy come Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform e Zapier.",
+      "description": "Ho progettato, sviluppato e testato i componenti software delle piattaforme di Social Academy, tra cui Marketplace (e-commerce per corsi di formazione), Skill Games (quiz online per scoprire vocazione e competenze), MySA (accesso a lezioni e video dei corsi), Dashboard (gestione di accademie, corsi, lead e campagne email) e BusinessInCloud (creazione di funnel e landing page). Ho integrato numerosi servizi esterni, tra cui Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform e Zapier.",
       "techStack": [
         "HTML 5",
         "CSS 3",
@@ -72,11 +70,10 @@
       ]
     },
     "nyu": {
-      "company": "Università di New York",
       "location": "New York, NY, USA",
       "role": "Tirocinio",
       "logoText": "Università di New York",
-      "description": "Ho lavorato al progetto Terraling, una collezione di database linguistici che permettono agli utenti di scoprire quali proprietà (morfologiche, sintattiche e semantiche) caratterizzano una lingua e quali differenze esistono tra le varie lingue.",
+      "description": "Ho lavorato al progetto Terraling, una collezione di database linguistici che consente agli utenti di esplorare le proprietà morfologiche, sintattiche e semantiche delle lingue e di confrontare le differenze tra di esse.",
       "techStack": [
         "Ruby on Rails",
         "GraphQl",
@@ -121,7 +118,7 @@
     "istc": {
       "location": "Via S. Martino della Battaglia 44, 00185, Roma, Italia",
       "role": "Tirocinio",
-      "description": "Ho sviluppato un applicazione desktop per una piattaforma robotica con l’obiettivo di analizzare la postura di una persona attraverso tre semplici esercizi motori.",
+      "description": "Ho sviluppato un’applicazione desktop per una piattaforma robotica, progettata per analizzare la postura di una persona attraverso tre semplici esercizi motori.",
       "techStack": ["C#", "Kinect"]
     }
   },

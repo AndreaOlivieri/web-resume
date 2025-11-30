@@ -210,7 +210,7 @@ export const resumeData = {
       ],
     },
     {
-      company: "experience.nyu.company", // "Università di New York" vs "New York University"
+      company: "New York University",
       location: "experience.nyu.location",
       startDate: "2016-09",
       endDate: "2017-03",
