@@ -118,7 +118,6 @@ export const resumeData = {
       projects: [
         {
           company: "Skoda",
-          role: "experience.accenture.projects.skoda.role",
           logoText: "Skoda",
           logo: "/assets/skoda.png",
           description: "experience.accenture.projects.skoda.description",
@@ -137,7 +136,6 @@ export const resumeData = {
         },
         {
           company: "Leonardo s.p.a.",
-          role: "experience.accenture.projects.leonardo.role",
           logoText: "Leonardo s.p.a.",
           logo: "/assets/leonardo.png",
           description: "experience.accenture.projects.leonardo.description",

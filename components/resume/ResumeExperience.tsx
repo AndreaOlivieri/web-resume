@@ -53,6 +53,18 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
             <p className="text-[10px] text-gray-600 mt-1 whitespace-pre-line">
               {job.description}
             </p>
+            {job.techStack && job.techStack.length > 0 && (
+              <div className="flex flex-wrap gap-1 mt-2">
+                {job.techStack.map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="text-[8px] bg-gray-100 text-gray-700 px-1.5 py-0.5 rounded border border-gray-300"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            )}
             <div className="clear-both"></div>
 
             {/* Nested Projects */}
@@ -85,6 +97,18 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                     <p className="text-[9px] text-gray-600 mt-0.5 whitespace-pre-line">
                       {project.description}
                     </p>
+                    {project.techStack && project.techStack.length > 0 && (
+                      <div className="flex flex-wrap gap-1 mt-1">
+                        {project.techStack.map((tech, techIndex) => (
+                          <span
+                            key={techIndex}
+                            className="text-[7px] bg-gray-100 text-gray-700 px-1 py-0.5 rounded border border-gray-300"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                     <div className="clear-both"></div>
                   </div>
                 ))}
