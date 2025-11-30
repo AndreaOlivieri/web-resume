@@ -23,7 +23,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
         {experience.map((job, index) => (
           <div
             key={index}
-            className="relative pb-3 border-b border-gray-200 last:border-0"
+            className="relative pb-3 border-b border-gray-200 last:border-0 break-inside-avoid"
           >
             {(job.logo || job.logoText) && (
               <div className="float-right w-20 h-10 flex items-center justify-center ml-3 mb-2">
@@ -79,7 +79,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
             {job.projects && (
               <div className="mt-3 space-y-2.5 pl-4 border-l-2 border-blue-100">
                 {job.projects.map((project, pIndex) => (
-                  <div key={pIndex} className="relative">
+                  <div key={pIndex} className="relative break-inside-avoid">
                     {project.logo && (
                       <div className="float-right w-20 h-10 flex items-center justify-center ml-3 mb-2">
                         <img
