@@ -15,15 +15,18 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
 }) => {
   return (
     <section className="mb-6">
-      <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-4 before:h-px before:bg-gray-400 before:flex-1 after:h-px after:bg-gray-400 after:flex-1 uppercase tracking-widest">
+      <h2 className="text-base font-bold text-gray-900 mb-3 flex items-center justify-center gap-4 before:h-px before:bg-gradient-to-r before:from-transparent before:to-gray-300 before:flex-1 after:h-px after:bg-gradient-to-l after:from-transparent after:to-gray-300 after:flex-1 uppercase tracking-wider">
         {label}
       </h2>
 
-      <div className="space-y-5">
+      <div className="space-y-4">
         {experience.map((job, index) => (
-          <div key={index} className="relative">
+          <div
+            key={index}
+            className="relative pb-3 border-b border-gray-200 last:border-0"
+          >
             {(job.logo || job.logoText) && (
-              <div className="float-right w-16 h-8 flex items-center justify-center ml-2 mb-1">
+              <div className="float-right w-20 h-10 flex items-center justify-center ml-3 mb-2">
                 {job.logo ? (
                   <img
                     src={job.logo}
@@ -31,34 +34,39 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                     className="max-w-full max-h-full object-contain"
                   />
                 ) : (
-                  <div className="w-full h-full bg-gray-100 flex items-center justify-center text-[10px] text-gray-400 border border-gray-200">
+                  <div className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center text-[9px] text-gray-500 font-semibold">
                     {job.logoText}
                   </div>
                 )}
               </div>
             )}
             {job.startDate && (
-              <p className="text-[10px] text-gray-500 mb-0.5">
+              <p className="text-[9px] text-gray-500 mb-1 font-medium">
                 {formatPeriod(job.startDate, job.endDate, language)}
               </p>
             )}
-            <h3 className="font-bold text-gray-900 text-sm">
-              {job.company} {job.location ? `- ${job.location}` : ""}
+            <h3 className="font-bold text-gray-900 text-sm mb-0.5">
+              {job.company}{" "}
+              {job.location && (
+                <span className="text-gray-600 font-normal">
+                  • {job.location}
+                </span>
+              )}
             </h3>
             {job.role && (
-              <p className="text-xs text-green-600 font-bold mb-1">
+              <p className="text-[10px] text-blue-600 font-semibold mb-1.5">
                 {job.role}
               </p>
             )}
-            <p className="text-[10px] text-gray-600 mt-1 whitespace-pre-line">
+            <p className="text-[10px] text-gray-700 mt-1 leading-relaxed whitespace-pre-line">
               {job.description}
             </p>
             {job.techStack && job.techStack.length > 0 && (
-              <div className="flex flex-wrap gap-1 mt-2">
+              <div className="flex flex-wrap gap-1.5 mt-2">
                 {job.techStack.map((tech, techIndex) => (
                   <span
                     key={techIndex}
-                    className="text-[8px] bg-gray-100 text-gray-700 px-1.5 py-0.5 rounded border border-gray-300"
+                    className="text-[7px] bg-gray-50 text-gray-700 px-2 py-0.5 rounded-full border border-gray-200 font-medium"
                   >
                     {tech}
                   </span>
@@ -69,11 +77,11 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
 
             {/* Nested Projects */}
             {job.projects && (
-              <div className="mt-3 space-y-3 pl-3 border-l border-gray-300">
+              <div className="mt-3 space-y-2.5 pl-4 border-l-2 border-blue-100">
                 {job.projects.map((project, pIndex) => (
                   <div key={pIndex} className="relative">
                     {project.logo && (
-                      <div className="float-right w-16 h-8 flex items-center justify-center ml-2 mb-1">
+                      <div className="float-right w-20 h-10 flex items-center justify-center ml-3 mb-2">
                         <img
                           src={project.logo}
                           alt={project.company}
@@ -82,7 +90,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                       </div>
                     )}
                     {project.startDate && (
-                      <p className="text-[9px] text-gray-500 mb-0.5">
+                      <p className="text-[8px] text-gray-500 mb-0.5 font-medium">
                         {formatPeriod(
                           project.startDate,
                           project.endDate,
@@ -90,19 +98,23 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                         )}
                       </p>
                     )}
-                    <h4 className="font-bold text-gray-800 text-xs">
+                    <h4 className="font-semibold text-gray-800 text-[11px] mb-0.5">
                       {project.company}{" "}
-                      {project.role ? `- ${project.role}` : ""}
+                      {project.role && (
+                        <span className="text-gray-600 font-normal">
+                          • {project.role}
+                        </span>
+                      )}
                     </h4>
-                    <p className="text-[9px] text-gray-600 mt-0.5 whitespace-pre-line">
+                    <p className="text-[9px] text-gray-700 mt-0.5 leading-relaxed whitespace-pre-line">
                       {project.description}
                     </p>
                     {project.techStack && project.techStack.length > 0 && (
-                      <div className="flex flex-wrap gap-1 mt-1">
+                      <div className="flex flex-wrap gap-1 mt-1.5">
                         {project.techStack.map((tech, techIndex) => (
                           <span
                             key={techIndex}
-                            className="text-[7px] bg-gray-100 text-gray-700 px-1 py-0.5 rounded border border-gray-300"
+                            className="text-[6px] bg-gray-50 text-gray-700 px-1.5 py-0.5 rounded-full border border-gray-200 font-medium"
                           >
                             {tech}
                           </span>
