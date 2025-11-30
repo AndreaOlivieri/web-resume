@@ -21,6 +21,7 @@ export interface ResumeData {
     logoText?: string;
     logo?: string;
     description: string;
+    techStack?: string[];
     projects?: Array<{
       company: string;
       location?: string;
@@ -30,6 +31,7 @@ export interface ResumeData {
       logoText?: string;
       logo?: string;
       description: string;
+      techStack?: string[];
     }>;
   }>;
   education: Array<{

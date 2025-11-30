@@ -12,25 +12,25 @@
       "description": "I worked with several clients:",
       "projects": {
         "open_reply": {
-          "description": "I worked as Tech Lead on several PoCs for Open Reply, contributing to the design and development of innovative cross-platform applications. These applications stand out because the entire user interface is controlled by AI agents. The main technologies used are: Python, OpenAI, OpenSearch, React Native, Expo."
+          "description": "I worked as Tech Lead on several PoCs for Open Reply, contributing to the design and development of innovative cross-platform applications. These applications stand out because the entire user interface is controlled by AI agents."
         },
         "photosi": {
-          "description": "I worked on the PhotoSì project as a Frontend expert, contributing to the development of the customer's photo book editor for mobile and web applications. The main technologies used in this project are: React Native, Expo, Typescript, Javascript."
+          "description": "I worked on the PhotoSì project as a Frontend expert, contributing to the development of the customer's photo book editor for mobile and web applications."
         },
         "churchs": {
-          "description": "I worked on the Church's project as a Frontend expert, contributing to the improvement of the user experience of the Church's website. The main technologies used in this project are: Vue 3, Typescript, Javascript."
+          "description": "I worked on the Church's project as a Frontend expert, contributing to the improvement of the user experience of the Church's website."
         },
         "mediaset": {
-          "description": "I worked on the Mediaset project as a Frontend expert, contributing to the development of a new Smart TV application that allows users to watch movies, TV series and live channels offered by Mediaset. The main technologies used in this project are: React Native, Typescript, Javascript, Storybook."
+          "description": "I worked on the Mediaset project as a Frontend expert, contributing to the development of a new Smart TV application that allows users to watch movies, TV series and live channels offered by Mediaset."
         },
         "unipol": {
-          "description": "I worked on the UnipolSai project as Tech Lead and Frontend expert, leading the design and development of a new micro-frontend architecture based on Module Federation. I managed a dynamic team of over 10 developers. The main development tools used in this project are: React.js and Redux, Angular 14, Typescript, Javascript ES6, Node.js, Express, Webpack, Module Federation Plugin, Jest, React Testing Library, HTML 5, CSS 3, CSS in JS, SCSS/SASS, Git, Lerna/Nx."
+          "description": "I worked on the UnipolSai project as Tech Lead and Frontend expert, leading the design and development of a new micro-frontend architecture based on Module Federation. I managed a dynamic team of over 10 developers."
         },
         "bat": {
-          "description": "I worked on the Vuse.com project as a Frontend expert, contributing to the development of a web application for the management and use of the MyVuse electronic cigarette, as well as the creation of an interactive browser based on BLE technology. The main technologies used in this project include: React.js and Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
+          "description": "I worked on the Vuse.com project as a Frontend expert, contributing to the development of a web application for the management and use of the MyVuse electronic cigarette, as well as the creation of an interactive browser based on BLE technology."
         },
         "prada": {
-          "description": "I worked on the e-commerce projects of Prada, Miu Miu and Car Shoe as a Frontend expert. The main development tools used in this project are: Typescript, Javascript ES6, jQuery, Webpack, HTML 5, CSS 3, SCSS/SASS, Git."
+          "description": "I worked on the e-commerce projects of Prada, Miu Miu and Car Shoe as a Frontend expert."
         }
       }
     },
@@ -40,25 +40,23 @@
       "description": "I worked with several clients:",
       "projects": {
         "skoda": {
-          "role": "Frontend Developer",
-          "description": "I served as a Frontend Expert on the e-commerce of Škoda, contributing to the development of a cutting-edge web platform. My role involved crafting an engaging and user-friendly interface to elevate the overall user experience. The main development tools used in this project: ReactJs e Redux, Typescript, Javascript ES6, Webpack, Module Federation Plugin, HTML 5, CSS 3, Git, Lerna/Nx"
+          "description": "I served as a Frontend Expert on the e-commerce of Škoda, contributing to the development of a cutting-edge web platform. My role involved crafting an engaging and user-friendly interface to elevate the overall user experience."
         },
         "leonardo": {
-          "role": "Frontend Developer",
-          "description": "I served as a Frontend developer on the Euronaval project, contributing to the development of the web platform. My role involved crafting an engaging and user-friendly interface to elevate the overall user experience. The main development tools used in this project: ReactJs e Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, Git"
+          "description": "I served as a Frontend developer on the Euronaval project, contributing to the development of the web platform. My role involved crafting an engaging and user-friendly interface to elevate the overall user experience."
         },
         "egeos": {
-          "description": "I served as a Frontend Expert on the e-GEO project, contributing to design, build and development of a cutting-edge web platform called CLEOS. The main development tools used in this project: ReactJs e Redux, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, Git"
+          "description": "I served as a Frontend Expert on the e-GEO project, contributing to design, build and development of a cutting-edge web platform called CLEOS."
         },
         "msc": {
-          "description": "I served as a Frontend developer on the website of MSC Crociere, contributing to the development of the web platform. The main development tools used in this project: ReactJs e Redux, Angular 10+, Typescript, Javascript ES6, Webpack, HTML 5, CSS 3, SCSS/SASS, Git"
+          "description": "I served as a Frontend developer on the website of MSC Crociere, contributing to the development of the web platform."
         }
       }
     },
     "social_academy": {
       "location": "Via Catone 3, 00192, Rome, Italy",
       "role": "Full-Stack developer | Business in Cloud's software architect | Software Engineer",
-      "description": "I projected, developed, and tested the software components of Social Academy’s platforms: Marketplace (e-commerce of formation courses), Skill Games (online questionaries that let you discover your vocation and potential skills), MySA (a platform where you have access to your course lessons and videos), Dashboard (a management platform that let you manage your academy, courses, leads and email campaigns) and BusinessInCloud (a marketing platform that let you create funnel and landing pages). I used and/or integrated into Social Academy external services like Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform and Zapier. I used to use HTML 5, CSS 3, Ruby on Rails, ReactJs, AngularJs, Javascript, JQuery, AWS and Heroku to develop and manage all Social Academy’s platforms."
+      "description": "I projected, developed, and tested the software components of Social Academy’s platforms: Marketplace (e-commerce of formation courses), Skill Games (online questionaries that let you discover your vocation and potential skills), MySA (a platform where you have access to your course lessons and videos), Dashboard (a management platform that let you manage your academy, courses, leads and email campaigns) and BusinessInCloud (a marketing platform that let you create funnel and landing pages). I used and/or integrated into Social Academy external services like Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform and Zapier."
     },
     "nyu": {
       "company": "New York University",
@@ -70,12 +68,12 @@
     "the_city": {
       "location": "Via In Arcione 98, 00187, Rome, Italy",
       "role": "Full-Stack developer",
-      "description": "I worked for a real estate agency where I developed its online marketplace using HTML 5, CSS 3, Javascript, JQuery, Bootstrap for the client side. The server side has been developed with Ruby on Rails."
+      "description": "I worked for a real estate agency where I developed its online marketplace."
     },
     "innovaction_lab": {
       "location": "Via In Arcione 98, 00187, Rome, Italy",
       "role": "CTO | Full-Stack developer",
-      "description": "InnovAction Lab is a training course that gives you the ability to turn your innovative idea into a startup. I and my team created our startup called “Fashape” to help people to find the best men’s fashion products through a daily wish list of most voted objects from social networks. I projected and developed the entire platform using MeteorJS framework and Microsoft Azure cloud resources."
+      "description": "InnovAction Lab is a training course that gives you the ability to turn your innovative idea into a startup. I and my team created our startup called “Fashape” to help people to find the best men’s fashion products through a daily wish list of most voted objects from social networks."
     },
     "hsc": {
       "location": "Via Elio Lampridio Cerva 103, 00143, Rome, Italy",
@@ -85,7 +83,7 @@
     "istc": {
       "location": "Via S. Martino della Battaglia 44, 00185, Rome, Italy",
       "role": "Internship",
-      "description": "I developed a desktop application to a robotic platform with the aim of analyzing the person's posture and balance through three simple exercises engines. The application was developed in C# and working closely with the Kinect sensor for tracking posture."
+      "description": "I developed a desktop application to a robotic platform with the aim of analyzing the person's posture and balance through three simple exercises engines."
     }
   },
   "education": {
