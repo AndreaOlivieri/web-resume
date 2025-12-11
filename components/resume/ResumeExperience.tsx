@@ -14,16 +14,18 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
   language,
 }) => {
   return (
-    <section className="mb-6">
-      <h2 className="text-base font-bold text-gray-900 mb-3 flex items-center justify-center gap-4 before:h-px before:bg-gradient-to-r before:from-transparent before:to-gray-300 before:flex-1 after:h-px after:bg-gradient-to-l after:from-transparent after:to-gray-300 after:flex-1 uppercase tracking-wider">
+    <section>
+      <h2 className="text-base font-bold text-gray-900 flex items-center justify-center gap-4 before:h-px before:bg-gradient-to-r before:from-transparent before:to-gray-300 before:flex-1 after:h-px after:bg-gradient-to-l after:from-transparent after:to-gray-300 after:flex-1 uppercase tracking-wider">
         {label}
       </h2>
 
-      <div className="space-y-4">
+      <div>
         {experience.map((job, index) => (
           <div
             key={index}
-            className="relative pb-3 border-b border-gray-200 last:border-0 break-inside-avoid"
+            className={`relative pt-3 pb-3 border-b border-gray-200 last:border-0 ${
+              !job.projects ? "break-inside-avoid" : ""
+            }`}
           >
             {(job.logo || job.logoText) && (
               <div className="float-right w-20 h-10 flex items-center justify-center ml-3 mb-2">
@@ -58,7 +60,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                 {job.role}
               </p>
             )}
-            <p className="text-[10px] text-gray-700 mt-1 leading-relaxed whitespace-pre-line">
+            <p className="text-[10px] text-gray-700 mt-1 mb-1 leading-relaxed whitespace-pre-line">
               {job.description}
             </p>
             {job.techStack && job.techStack.length > 0 && (
@@ -77,9 +79,14 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
 
             {/* Nested Projects */}
             {job.projects && (
-              <div className="mt-3 space-y-2.5 pl-4 border-l-2 border-blue-100">
+              <div className="pl-4 border-l-2 border-blue-100">
                 {job.projects.map((project, pIndex) => (
-                  <div key={pIndex} className="relative break-inside-avoid">
+                  <div
+                    key={pIndex}
+                    className={`relative break-inside-avoid ${
+                      pIndex !== 0 ? "pt-4" : "pt-1"
+                    }`}
+                  >
                     {project.logo && (
                       <div className="float-right w-20 h-10 flex items-center justify-center ml-3 mb-2">
                         <img
