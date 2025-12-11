@@ -124,7 +124,7 @@
   },
   "education": {
     "state_exam": {
-      "degree": "Superiore Tecnico di Stato e abilitazione alla professione di Ingegnere (187/240)",
+      "degree": "Esame di Stato con abilitazione alla professione di Ingegnere dell'Informazione Specialista (187/240)",
       "institution": "Università Roma Tre - Via Ostiense 159, 00154, Roma, Italia"
     },
     "master": {
@@ -147,7 +147,8 @@
         "Algorithms",
         "SQL",
         "Architetture Microfront-end",
-        "TDD"
+        "TDD",
+        "CI/CD"
       ]
     },
     "mobile": {

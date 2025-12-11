@@ -87,7 +87,7 @@
   },
   "education": {
     "state_exam": {
-      "degree": "State Technical Superior and qualification for the profession of Engineer (187/240)",
+      "degree": "Government exam and licensed as a profession engineer (187/240)",
       "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
     },
     "master": {
@@ -110,7 +110,8 @@
         "Algorithms",
         "SQL",
         "Microfront-end Architectures",
-        "TDD"
+        "TDD",
+        "CI/CD"
       ]
     },
     "mobile": {
