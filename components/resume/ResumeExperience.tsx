@@ -23,7 +23,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
         {experience.map((job, index) => (
           <div
             key={index}
-            className={`relative pt-3 pb-3 border-b border-gray-200 last:border-0 ${
+            className={`relative pt-2 pb-2 border-b border-gray-200 last:border-0 ${
               !job.projects ? "break-inside-avoid" : ""
             }`}
           >
@@ -36,31 +36,26 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                     className="max-w-full max-h-full object-contain"
                   />
                 ) : (
-                  <div className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center text-[9px] text-gray-500 font-semibold">
+                  <div className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center text-xs text-gray-500 font-semibold">
                     {job.logoText}
                   </div>
                 )}
               </div>
             )}
-            {job.startDate && (
-              <p className="text-[9px] text-gray-500 mb-1 font-medium">
-                {formatPeriod(job.startDate, job.endDate, language)}
-              </p>
-            )}
-            <h3 className="font-bold text-gray-900 text-sm mb-0.5">
-              {job.company}{" "}
-              {job.location && (
-                <span className="text-gray-600 font-normal">
-                  • {job.location}
-                </span>
-              )}
+            <h3 className="font-bold text-gray-900 text-sm mb-0.5 flex items-baseline gap-2">
+              <span>{job.company}</span>
+              <span className="text-xs text-gray-600 font-medium whitespace-nowrap">
+                {`${
+                  job.location ? "• " + job.location + " • " : ""
+                }${formatPeriod(job.startDate, job.endDate, language)}`}
+              </span>
             </h3>
             {job.role && (
-              <p className="text-[10px] text-blue-600 font-semibold mb-1.5">
+              <p className="text-xs text-blue-600 font-semibold mb-1.5">
                 {job.role}
               </p>
             )}
-            <p className="text-[10px] text-gray-700 mt-1 mb-1 leading-relaxed whitespace-pre-line">
+            <p className="text-xs text-gray-700 mt-1 mb-1 leading-relaxed whitespace-pre-line">
               {job.description}
             </p>
             {job.techStack && job.techStack.length > 0 && (
@@ -68,7 +63,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                 {job.techStack.map((tech, techIndex) => (
                   <span
                     key={techIndex}
-                    className="text-[7px] bg-gray-50 text-gray-700 px-2 py-0.5 rounded-full border border-gray-200 font-medium"
+                    className="text-xs bg-gray-50 text-gray-700 px-2 py-0.5 rounded-full border border-gray-200 font-medium"
                   >
                     {tech}
                   </span>
@@ -96,24 +91,28 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                         />
                       </div>
                     )}
-                    {project.startDate && (
-                      <p className="text-[8px] text-gray-500 mb-0.5 font-medium">
-                        {formatPeriod(
-                          project.startDate,
-                          project.endDate,
-                          language
+                    <h4 className="font-semibold text-gray-800 text-xs mb-0.5 flex items-baseline gap-2">
+                      <span>
+                        {project.company}{" "}
+                        {project.role && (
+                          <span className="text-gray-600 font-normal">
+                            • {project.role}
+                          </span>
                         )}
-                      </p>
-                    )}
-                    <h4 className="font-semibold text-gray-800 text-[11px] mb-0.5">
-                      {project.company}{" "}
-                      {project.role && (
-                        <span className="text-gray-600 font-normal">
-                          • {project.role}
+                      </span>
+                      {project.startDate && (
+                        <span className="text-gray-500 font-medium whitespace-nowrap">
+                          (
+                          {formatPeriod(
+                            project.startDate,
+                            project.endDate,
+                            language
+                          )}
+                          )
                         </span>
                       )}
                     </h4>
-                    <p className="text-[9px] text-gray-700 mt-0.5 leading-relaxed whitespace-pre-line">
+                    <p className="text-xs text-gray-700 mt-0.5 leading-relaxed whitespace-pre-line">
                       {project.description}
                     </p>
                     {project.techStack && project.techStack.length > 0 && (
@@ -121,7 +120,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                         {project.techStack.map((tech, techIndex) => (
                           <span
                             key={techIndex}
-                            className="text-[6px] bg-gray-50 text-gray-700 px-1.5 py-0.5 rounded-full border border-gray-200 font-medium"
+                            className="text-xs bg-gray-50 text-gray-700 px-1.5 py-0.5 rounded-full border border-gray-200 font-medium"
                           >
                             {tech}
                           </span>

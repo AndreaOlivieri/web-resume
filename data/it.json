@@ -1,13 +1,13 @@
 {
   "header": {
-    "title": "Ingegnere Informatico | Tech Lead | Senior Consultant",
+    "title": "Tech Lead | Ingegnere Informatico | Senior Consultant",
     "subTitle": "Sviluppatore Front-End & Mobile",
     "location": "Roma, Italia"
   },
   "summary": "Ingegnere Informatico con 10 anni di esperienza nello sviluppo Web e Mobile e una solida specializzazione nella progettazione di architetture scalabili. Ho ricoperto il ruolo di Tech Lead in progetti complessi, guidando team di oltre 10 sviluppatori e progettando soluzioni innovative, tra cui un’architettura micro-frontend di nuova generazione. Ho coordinato diversi Proof of Concept per applicazioni cross-platform basate su interfacce utente orchestrate da agenti di intelligenza artificiale. Integro attivamente tecnologie avanzate di AI (es. Google Antigravity, Claude, ChatGPT) nei processi di sviluppo per aumentare produttività, qualità del software e time-to-market. Costantemente aggiornato su framework, librerie e metodologie moderne, mantengo un approccio orientato all'innovazione e al miglioramento continuo.",
   "experience": {
     "open_reply": {
-      "location": "Via Cavour 59, 00184, Roma, Italia",
+      "location": "Roma, Italia",
       "role": "Tech Lead | Senior Consultant | Esperto Front-end | Ingegnere Informatico",
       "description": "Ho lavorato con diversi clienti:",
       "projects": {
@@ -35,7 +35,7 @@
       }
     },
     "accenture": {
-      "location": "Via Sciangai 53, 00144, Rome, Italy",
+      "location": "Roma, Italia",
       "role": "Application Development Senior Analyst | Frontend Expert | Ingegnere Informatico",
       "description": "Ho lavorato con diversi clienti:",
       "projects": {
@@ -54,7 +54,7 @@
       }
     },
     "social_academy": {
-      "location": "Via Catone 3, 00192, Roma, Italia",
+      "location": "Roma, Italia",
       "role": "Sviluppatore Full-Stack | Architetto Software di Business in Cloud | Ingegnere Informatico",
       "description": "Ho progettato, sviluppato e testato i componenti software delle piattaforme di Social Academy, tra cui Marketplace (e-commerce per corsi di formazione), Skill Games (quiz online per scoprire vocazione e competenze), MySA (accesso a lezioni e video dei corsi), Dashboard (gestione di accademie, corsi, lead e campagne email) e BusinessInCloud (creazione di funnel e landing page). Ho integrato numerosi servizi esterni, tra cui Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform e Zapier.",
       "techStack": [
@@ -63,14 +63,13 @@
         "Ruby on Rails",
         "ReactJs",
         "AngularJs",
-        "Javascript",
         "JQuery",
         "AWS",
         "Heroku"
       ]
     },
     "nyu": {
-      "location": "New York, NY, USA",
+      "location": "New York, USA",
       "role": "Tirocinio",
       "logoText": "Università di New York",
       "description": "Ho lavorato al progetto Terraling, una collezione di database linguistici che consente agli utenti di esplorare le proprietà morfologiche, sintattiche e semantiche delle lingue e di confrontare le differenze tra di esse.",
@@ -78,27 +77,18 @@
         "Ruby on Rails",
         "GraphQl",
         "ReactJs",
-        "Javascript",
         "TypeScript",
         "Bootstrap"
       ]
     },
     "the_city": {
-      "location": "Via In Arcione 98, 00187, Roma, Italia",
+      "location": "Roma, Italia",
       "role": "Sviluppatore Full-Stack",
       "description": "Ho lavorato per un’agenzia immobiliare, dove mi sono occupato della progettazione, dello sviluppo e della messa online del loro marketplace dedicato agli immobili.",
-      "techStack": [
-        "HTML 5",
-        "CSS 3",
-        "Ruby on Rails",
-        "ReactJs",
-        "Javascript",
-        "TypeScript",
-        "Bootstrap"
-      ]
+      "techStack": ["HTML 5", "CSS 3", "Ruby on Rails", "ReactJs", "TypeScript", "Bootstrap"]
     },
     "innovaction_lab": {
-      "location": "Via In Arcione 98, 00187, Roma, Italia",
+      "location": "Roma, Italia",
       "role": "CTO | Sviluppatore Full-Stack",
       "description": "InnovAction Lab è un corso di formazione che ti da l’abilità di trasformare la tua idea innovativa in una startup. Io ed il mio team abbiamo creato “Fashape” per aiutare le persone a trovare i migliori prodotti maschili sul mercato attraverso una lista degli oggetti più richiesti dai social networks.",
       "techStack": [
@@ -110,13 +100,13 @@
       ]
     },
     "hsc": {
-      "location": "Via Elio Lampridio Cerva 103, 00143, Roma, Italia",
+      "location": "Roma, Italia",
       "role": "Sviluppatore Software",
       "description": "Ho collaborato allo sviluppo, all’ottimizzazione e alla manutenzione del software aziendale",
       "techStack": ["Delphi", "PL/SQL", "Oracle"]
     },
     "istc": {
-      "location": "Via S. Martino della Battaglia 44, 00185, Roma, Italia",
+      "location": "Roma, Italia",
       "role": "Tirocinio",
       "description": "Ho sviluppato un’applicazione desktop per una piattaforma robotica, progettata per analizzare la postura di una persona attraverso tre semplici esercizi motori.",
       "techStack": ["C#", "Kinect"]
@@ -124,16 +114,16 @@
   },
   "education": {
     "state_exam": {
-      "degree": "Esame di Stato con abilitazione alla professione di Ingegnere dell'Informazione Specialista (187/240)",
-      "institution": "Università Roma Tre - Via Ostiense 159, 00154, Roma, Italia"
+      "degree": "Esame di Stato con abilitazione alla professione di Ingegnere dell'Informazione Specialista",
+      "institution": "Università Roma Tre - Roma, Italia"
     },
     "master": {
-      "degree": "Laurea Magistrale in Ingegneria Informatica (103/110)",
-      "institution": "Università Roma Tre - Via Ostiense 159, 00154, Roma, Italia"
+      "degree": "Laurea Magistrale in Ingegneria Informatica",
+      "institution": "Università Roma Tre - Roma, Italia"
     },
     "bachelor": {
-      "degree": "Laurea Triennale in Ingegneria Informatica (104/110)",
-      "institution": "Università Roma Tre - Via Ostiense 159, 00154, Roma, Italia"
+      "degree": "Laurea Triennale in Ingegneria Informatica",
+      "institution": "Università Roma Tre - Roma, Italia"
     }
   },
   "skills": {

@@ -1,14 +1,14 @@
 {
   "header": {
-    "title": "Computer Engineer | Tech Lead | Senior Consultant",
+    "title": "Tech Lead | Software Engineer | Senior Consultant",
     "subTitle": "Front-End & Mobile Developer",
     "location": "Rome, Italy"
   },
-  "summary": "Computer Engineer with 10 years of experience in Web and Mobile development, specializing in scalable architecture design. Served as Tech Lead on complex projects, managing teams of 10+ developers and designing innovative solutions, including a next-generation micro-frontend architecture. Led multiple Proof of Concepts for cross-platform applications with user interfaces orchestrated by AI agents. Actively leverage advanced AI tools (e.g., Google Antigravity, Claude, ChatGPT) to accelerate development, optimize processes, and improve software quality. Continuously updated on modern frameworks, libraries, and methodologies, maintaining a strong focus on innovation and continuous improvement.",
+  "summary": "Software Engineer with 10 years of experience in Web and Mobile development, specializing in scalable architecture design. Served as Tech Lead on complex projects, managing teams of 10+ developers and designing innovative solutions, including a next-generation micro-frontend architecture. Led multiple Proof of Concepts for cross-platform applications with user interfaces orchestrated by AI agents. Actively leverage advanced AI tools (e.g., Google Antigravity, Claude, ChatGPT) to accelerate development, optimize processes, and improve software quality. Continuously updated on modern frameworks, libraries, and methodologies, maintaining a strong focus on innovation and continuous improvement.",
   "experience": {
     "open_reply": {
-      "location": "Via Cavour 59, 00184, Rome, Italy",
-      "role": "Tech Lead | Senior Consultant | Front-end Expert (Computer Engineer)",
+      "location": "Rome, Italy",
+      "role": "Tech Lead | Senior Consultant | Front-end Expert | Software Engineer",
       "description": "I worked with several clients:",
       "projects": {
         "open_reply": {
@@ -35,8 +35,8 @@
       }
     },
     "accenture": {
-      "location": "Via Sciangai 53, 00144, Rome, Italy",
-      "role": "Application Development Senior Analyst | Frontend Expert | Computer Engineer",
+      "location": "Rome, Italy",
+      "role": "Application Development Senior Analyst | Frontend Expert | Software Engineer",
       "description": "I worked with several clients:",
       "projects": {
         "skoda": {
@@ -54,49 +54,49 @@
       }
     },
     "social_academy": {
-      "location": "Via Catone 3, 00192, Rome, Italy",
+      "location": "Rome, Italy",
       "role": "Full-Stack developer | Business in Cloud's software architect | Software Engineer",
       "description": "I designed, developed, and tested the software components of Social Academy’s platforms, including Marketplace (e-commerce for training courses), Skill Games (online quizzes to discover vocation and potential skills), MySA (access to course lessons and videos), Dashboard (management of academies, courses, leads, and email campaigns), and BusinessInCloud (marketing platform for creating funnels and landing pages). I also integrated numerous external services, such as Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform, and Zapier."
     },
     "nyu": {
-      "location": "New York, NY, USA",
+      "location": "New York, USA",
       "role": "Internship",
       "logoText": "New York University",
       "description": "I worked on the Terraling project, a collection of searchable linguistic databases that enables users to explore the morphological, syntactic, and semantic properties of languages and understand how these properties compare across different languages."
     },
     "the_city": {
-      "location": "Via In Arcione 98, 00187, Rome, Italy",
+      "location": "Rome, Italy",
       "role": "Full-Stack developer",
       "description": "I worked for a real estate agency, developing its online marketplace."
     },
     "innovaction_lab": {
-      "location": "Via In Arcione 98, 00187, Rome, Italy",
+      "location": "Rome, Italy",
       "role": "CTO | Full-Stack developer",
       "description": "InnovAction Lab is a training program designed to transform innovative ideas into startups. My team and I created a startup called Fashape, aimed at helping users discover the best men’s fashion products through a daily wish list featuring the most voted items from social networks."
     },
     "hsc": {
-      "location": "Via Elio Lampridio Cerva 103, 00143, Rome, Italy",
+      "location": "Rome, Italy",
       "role": "Software Developer",
       "description": "I collaborated on the development of the company’s enterprise software."
     },
     "istc": {
-      "location": "Via S. Martino della Battaglia 44, 00185, Rome, Italy",
+      "location": "Rome, Italy",
       "role": "Internship",
       "description": "I developed a desktop application for a robotic platform designed to analyze a person’s posture and balance through three simple motor exercises."
     }
   },
   "education": {
     "state_exam": {
-      "degree": "Government exam and licensed as a profession engineer (187/240)",
-      "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
+      "degree": "Government exam and licensed as a profession engineer",
+      "institution": "Roma Tre University - Rome, Italy"
     },
     "master": {
-      "degree": "Master's Degree in Computer Engineering (103/110)",
-      "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
+      "degree": "Master's Degree in Software Engineering",
+      "institution": "Roma Tre University - Rome, Italy"
     },
     "bachelor": {
-      "degree": "Bachelor's Degree in Computer Engineering (104/110)",
-      "institution": "Roma Tre University - Via Ostiense 159, 00154, Rome, Italy"
+      "degree": "Bachelor's Degree in Software Engineering",
+      "institution": "Roma Tre University - Rome, Italy"
     }
   },
   "skills": {

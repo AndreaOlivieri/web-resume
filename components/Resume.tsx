@@ -57,7 +57,7 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
           />
 
           {/* Footer Note */}
-          <div className="mt-8 pt-4 border-t border-gray-300 text-[9px] text-gray-500 text-center">
+          <div className="mt-8 pt-4 border-t border-gray-300 text-[10px] text-gray-500 text-center">
             {footer.note}
           </div>
         </div>
