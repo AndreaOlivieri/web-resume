@@ -43,7 +43,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
               </div>
             )}
             <h3 className="font-bold text-gray-900 text-sm mb-0.5 flex items-baseline gap-2">
-              <span>{job.company}</span>
+              <span className="text-base">{job.company}</span>
               <span className="text-xs text-gray-600 font-medium whitespace-nowrap">
                 {`${
                   job.location ? "• " + job.location + " • " : ""
@@ -91,26 +91,8 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                         />
                       </div>
                     )}
-                    <h4 className="font-semibold text-gray-800 text-xs mb-0.5 flex items-baseline gap-2">
-                      <span>
-                        {project.company}{" "}
-                        {project.role && (
-                          <span className="text-gray-600 font-normal">
-                            • {project.role}
-                          </span>
-                        )}
-                      </span>
-                      {project.startDate && (
-                        <span className="text-gray-500 font-medium whitespace-nowrap">
-                          (
-                          {formatPeriod(
-                            project.startDate,
-                            project.endDate,
-                            language
-                          )}
-                          )
-                        </span>
-                      )}
+                    <h4 className="font-semibold text-gray-800 text-sm mb-0.5 flex items-baseline gap-2">
+                      {project.company}
                     </h4>
                     <p className="text-xs text-gray-700 mt-0.5 leading-relaxed whitespace-pre-line">
                       {project.description}

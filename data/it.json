@@ -85,7 +85,14 @@
       "location": "Roma, Italia",
       "role": "Sviluppatore Full-Stack",
       "description": "Ho lavorato per un’agenzia immobiliare, dove mi sono occupato della progettazione, dello sviluppo e della messa online del loro marketplace dedicato agli immobili.",
-      "techStack": ["HTML 5", "CSS 3", "Ruby on Rails", "ReactJs", "TypeScript", "Bootstrap"]
+      "techStack": [
+        "HTML 5",
+        "CSS 3",
+        "Ruby on Rails",
+        "ReactJs",
+        "TypeScript",
+        "Bootstrap"
+      ]
     },
     "innovaction_lab": {
       "location": "Roma, Italia",
@@ -180,17 +187,6 @@
     "english": {
       "name": "Inglese",
       "level": "Intermedio alto (B2 level)"
-    }
-  },
-  "certifications": {
-    "online": {
-      "title": "Certificazioni di Corsi Online - Coursera, Udemy, LinkedIn Learning"
-    },
-    "b2": {
-      "title": "B2 First - Cambridge University Press & Assessment English"
-    },
-    "speexx": {
-      "title": "Spoken English CEFR Level B2.4 - Speexx"
     }
   },
   "footerNote": "Autorizzo il trattamento dei miei dati personali contenuti nel mio curriculum vitae in base all'art. 13 del D. Lgs. 196/2003 e all'art. 13 GDPR 679/16.",

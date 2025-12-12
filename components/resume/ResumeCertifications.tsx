@@ -24,8 +24,13 @@ export const ResumeCertifications: React.FC<ResumeCertificationsProps> = ({
 
           return (
             <div key={index}>
-              <p className="text-xs text-gray-500">{date}</p>
-              <p className="font-bold text-gray-900">{cert.title}</p>
+              <p className="flex items-center gap-2">
+                <span className="font-bold text-gray-900">{cert.title}</span>
+                <span className="text-xs text-gray-500">
+                  {cert.organization && <span> • {cert.organization}</span>}
+                  {date && <span> • {date}</span>}
+                </span>
+              </p>
             </div>
           );
         })}

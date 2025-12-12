@@ -60,7 +60,7 @@
     },
     "nyu": {
       "location": "New York, USA",
-      "role": "Internship",
+      "role": "Internship | Software Developer",
       "logoText": "New York University",
       "description": "I worked on the Terraling project, a collection of searchable linguistic databases that enables users to explore the morphological, syntactic, and semantic properties of languages and understand how these properties compare across different languages."
     },
@@ -81,7 +81,7 @@
     },
     "istc": {
       "location": "Rome, Italy",
-      "role": "Internship",
+      "role": "Internship | Software Developer",
       "description": "I developed a desktop application for a robotic platform designed to analyze a person’s posture and balance through three simple motor exercises."
     }
   },
@@ -153,17 +153,6 @@
     "english": {
       "name": "English",
       "level": "Upper Intermediate (B2 level)"
-    }
-  },
-  "certifications": {
-    "online": {
-      "title": "AI Online Certifications - Learnn, Udemy, Linkedin"
-    },
-    "b2": {
-      "title": "B2 First - Cambridge University Press & Assessment English"
-    },
-    "speexx": {
-      "title": "Spoken English CEFR Level B2.4 - Speexx"
     }
   },
   "footerNote": "I authorize the processing of my personal data contained in my curriculum vitae based on art. 13 of Legislative Decree 196/2003 and art. 13 GDPR 679/16.",

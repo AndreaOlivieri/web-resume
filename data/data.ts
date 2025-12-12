@@ -20,7 +20,7 @@ export const resumeData = {
       description: "experience.open_reply.description",
       projects: [
         {
-          company: "Open Reply",
+          company: "Business Development for Open Reply",
           logoText: "Open Reply",
           description: "experience.open_reply.projects.open_reply.description",
           techStack: [
@@ -339,23 +339,24 @@ export const resumeData = {
   ],
   certifications: [
     {
-      title: "certifications.online.title",
+      endDate: "2025",
+      title: "Meta Front-End Developer",
+      organization: "Coursera",
+    },
+    {
+      endDate: "2025",
+      title: "Meta React Native",
+      organization: "Coursera",
     },
     {
       endDate: "2023",
-      title: "Meta Front-End Developer - Meta",
+      title: "B2 First",
+      organization: "Cambridge University Press & Assessment English",
     },
     {
       endDate: "2023",
-      title: "Meta React Native - Meta",
-    },
-    {
-      endDate: "2020",
-      title: "certifications.b2.title",
-    },
-    {
-      endDate: "2019",
-      title: "certifications.speexx.title",
+      title: "Spoken English CEFR Level B2.4",
+      organization: "Speexx",
     },
   ],
   footer: {

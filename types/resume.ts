@@ -53,6 +53,7 @@ export interface ResumeData {
     startDate?: string;
     endDate?: string | null;
     title: string;
+    organization?: string;
   }[];
   footer: {
     note: string;
