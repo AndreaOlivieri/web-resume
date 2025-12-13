@@ -1,6 +1,7 @@
 import React from "react";
 import { ResumeData } from "../../types/resume";
 import { formatPeriod } from "../../utils/date";
+import { TechStack } from "./TechStack";
 
 interface ResumeExperienceProps {
   experience: ResumeData["experience"];
@@ -59,16 +60,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
               {job.description}
             </p>
             {job.techStack && job.techStack.length > 0 && (
-              <div className="flex flex-wrap gap-1.5 mt-2">
-                {job.techStack.map((tech, techIndex) => (
-                  <span
-                    key={techIndex}
-                    className="text-xs bg-gray-50 text-gray-700 px-2 py-0.5 rounded-full border border-gray-200 font-medium"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
+              <TechStack items={job.techStack} />
             )}
             <div className="clear-both"></div>
 
@@ -98,16 +90,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                       {project.description}
                     </p>
                     {project.techStack && project.techStack.length > 0 && (
-                      <div className="flex flex-wrap gap-1 mt-1.5">
-                        {project.techStack.map((tech, techIndex) => (
-                          <span
-                            key={techIndex}
-                            className="text-xs bg-gray-50 text-gray-700 px-1.5 py-0.5 rounded-full border border-gray-200 font-medium"
-                          >
-                            {tech}
-                          </span>
-                        ))}
-                      </div>
+                      <TechStack items={project.techStack} className="mt-1.5" />
                     )}
                     <div className="clear-both"></div>
                   </div>
