@@ -20,7 +20,7 @@ export const resumeData = {
       description: "experience.open_reply.description",
       projects: [
         {
-          company: "Business Development for Open Reply",
+          company: "Business Development - Open Reply",
           logoText: "Open Reply",
           description: "experience.open_reply.projects.open_reply.description",
           techStack: [

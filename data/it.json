@@ -11,25 +11,25 @@
       "description": "Ho lavorato con diversi clienti:",
       "projects": {
         "open_reply": {
-          "description": "Ho guidato diversi PoC dedicati alla progettazione e allo sviluppo di applicazioni cross-platform innovative. Questi progetti si caratterizzano per un’interfaccia utente interamente orchestrata da agenti di intelligenza artificiale."
+          "description": "Ho ricoperto il ruolo di Tech Lead in diverse iniziative proof-of-concept presso Open Reply, guidando la progettazione e lo sviluppo di applicazioni cross-platform innovative con interfacce utente dinamiche orchestrate da agenti di intelligenza artificiale."
         },
         "photosi": {
-          "description": "Ho contribuito allo sviluppo dell’editor di fotolibri, supportando il cliente sia nelle applicazioni mobile sia nella versione web."
+          "description": "Ho contribuito alla progettazione e allo sviluppo di un editor di fotolibri ricco di funzionalità per mobile e web, supportando flussi di lavoro complessi di layout e personalizzazione."
         },
         "churchs": {
-          "description": "Ho contribuito al miglioramento dell'esperienza utente del sito web di Church's."
+          "description": "Ho contribuito a migliorare l'esperienza utente del sito web di Church's implementando funzionalità mirate e ottimizzando l'usabilità, aumentando il coinvolgimento degli utenti e l'accessibilità."
         },
         "mediaset": {
-          "description": "Ho contribuito allo sviluppo di una nuova applicazione Smart TV che permette agli utenti di accedere a film, serie TV e canali live offerti dall’emittente."
+          "description": "Ho contribuito allo sviluppo di una nuova applicazione Smart TV che consente agli utenti di accedere a film, serie TV e canali live offerti da Mediaset."
         },
         "unipol": {
-          "description": "Ho guidato la progettazione e lo sviluppo di una nuova architettura micro-frontend basata su Module Federation. Ho coordinato un team dinamico composto da oltre dieci sviluppatori."
+          "description": "Ho progettato e realizzato una moderna piattaforma micro-frontend basata su Module Federation, fornendo leadership tecnica a un team interfunzionale di oltre 10 sviluppatori."
         },
         "bat": {
-          "description": "Ho contribuito allo sviluppo di un’applicazione web per la configurazione e l’utilizzo della sigaretta elettronica MyVuse, oltre alla realizzazione di un browser interattivo basato su tecnologia BLE."
+          "description": "Ho contribuito allo sviluppo di un'applicazione web per la gestione delle sigarette elettroniche MyVuse e creato un browser interattivo sfruttando la tecnologia BLE."
         },
         "prada": {
-          "description": "Ho contribuito ai progetti e-commerce di Prada, Miu Miu e Car Shoe."
+          "description": "Ho contribuito alla realizzazione e all'ottimizzazione di soluzioni e-commerce per i brand di lusso Prada, Miu Miu e Car Shoe, migliorando l'esperienza utente e le prestazioni della piattaforma."
         }
       }
     },
@@ -39,23 +39,23 @@
       "description": "Ho lavorato con diversi clienti:",
       "projects": {
         "skoda": {
-          "description": "Ho contribuito all’e-commerce di Škoda, contribuendo allo sviluppo di una piattaforma web all’avanguardia. Il mio ruolo includeva la progettazione di un’interfaccia intuitiva e coinvolgente, volta a migliorare l’esperienza utente complessiva."
+          "description": "Ho contribuito allo sviluppo e ottimizzazione della piattaforma e-commerce di Škoda integrando una soluzione a micro-frontend."
         },
         "leonardo": {
-          "description": "Ho contribuito allo sviluppo della piattaforma web e progettando un’interfaccia intuitiva e coinvolgente per ottimizzare l’esperienza utente complessiva."
+          "description": "Ho contribuito allo sviluppo e ottimizzazione del sito vetrina di Euronaval, progettando un'interfaccia coinvolgente e user-friendly per migliorare l'esperienza utente complessiva."
         },
         "egeos": {
-          "description": "Ho contribuito al progetto e-GEO, contribuendo alla progettazione e allo sviluppo di CLEOS, una piattaforma web all’avanguardia."
+          "description": "Ho contribuito allo sviluppo di un’interfaccia WebGIS per CLEOS, permettendo la visualizzazione e l’esplorazione di immagini satellitari e dati geospaziali con un design interattivo e intuitivo."
         },
         "msc": {
-          "description": "Ho contribuito allo sviluppo e all’ottimizzazione della piattaforma web di MSC Crociere."
+          "description": "Ho contribuito allo sviluppo e all'ottimizzazione del sito e-commerce di MSC, migliorando l'esperienza utente e le prestazioni della piattaforma."
         }
       }
     },
     "social_academy": {
       "location": "Roma, Italia",
       "role": "Sviluppatore Full-Stack | Architetto Software di Business in Cloud | Ingegnere Informatico",
-      "description": "Ho progettato, sviluppato e testato i componenti software delle piattaforme di Social Academy, tra cui Marketplace (e-commerce per corsi di formazione), Skill Games (quiz online per scoprire vocazione e competenze), MySA (accesso a lezioni e video dei corsi), Dashboard (gestione di accademie, corsi, lead e campagne email) e BusinessInCloud (creazione di funnel e landing page). Ho integrato numerosi servizi esterni, tra cui Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform e Zapier.",
+      "description": "Ho contribuito alla progettazione, allo sviluppo e al testing dell'ecosistema multi-piattaforma di Social Academy (Marketplace, Skill Games, MySA, Dashboard, BusinessInCloud), integrando numerosi strumenti esterni (PayPal, Stripe, Mailchimp, Calendly, Typeform, Zapier) per offrire esperienze di e-learning e marketing fluide.",
       "techStack": [
         "HTML 5",
         "CSS 3",
@@ -71,7 +71,7 @@
       "location": "New York, USA",
       "role": "Tirocinio",
       "logoText": "Università di New York",
-      "description": "Ho lavorato al progetto Terraling, una collezione di database linguistici che consente agli utenti di esplorare le proprietà morfologiche, sintattiche e semantiche delle lingue e di confrontare le differenze tra di esse.",
+      "description": "Ho contribuito allo sviluppo di Terraling, una collezione di database linguistici consultabili che consente agli utenti di esplorare e confrontare le proprietà morfologiche, sintattiche e semantiche di più lingue.",
       "techStack": [
         "Ruby on Rails",
         "GraphQl",
@@ -83,7 +83,7 @@
     "the_city": {
       "location": "Roma, Italia",
       "role": "Sviluppatore Full-Stack",
-      "description": "Ho lavorato per un’agenzia immobiliare, dove mi sono occupato della progettazione, dello sviluppo e della messa online del loro marketplace dedicato agli immobili.",
+      "description": "Ho contribuito alla progettazione e allo sviluppo del marketplace online di un'agenzia immobiliare, offrendo un'esperienza fluida e user-friendly per clienti e agenti.",
       "techStack": [
         "HTML 5",
         "CSS 3",
@@ -96,7 +96,7 @@
     "innovaction_lab": {
       "location": "Roma, Italia",
       "role": "CTO | Sviluppatore Full-Stack",
-      "description": "InnovAction Lab è un corso di formazione che ti da l’abilità di trasformare la tua idea innovativa in una startup. Io ed il mio team abbiamo creato “Fashape” per aiutare le persone a trovare i migliori prodotti maschili sul mercato attraverso una lista degli oggetti più richiesti dai social networks.",
+      "description": "Ho partecipato a InnovAction Lab, un programma acceleratore di startup, e co-creato Fashape, una piattaforma che aiuta gli utenti a scoprire i migliori prodotti di moda maschile attraverso una wishlist giornaliera curata dai trend dei social network.",
       "techStack": [
         "MeteorJS",
         "Microsoft Azure",
@@ -108,13 +108,13 @@
     "hsc": {
       "location": "Roma, Italia",
       "role": "Sviluppatore Software",
-      "description": "Ho collaborato allo sviluppo, all’ottimizzazione e alla manutenzione del software aziendale",
+      "description": "Ho supportato lo sviluppo e la manutenzione del software aziendale di HSC, gestendo migrazioni di database e risolvendo problemi per migliorare l'efficienza operativa",
       "techStack": ["Delphi", "PL/SQL", "Oracle"]
     },
     "istc": {
       "location": "Roma, Italia",
       "role": "Tirocinio",
-      "description": "Ho sviluppato un’applicazione desktop per una piattaforma robotica, progettata per analizzare la postura di una persona attraverso tre semplici esercizi motori.",
+      "description": "Ho ingegnerizzato un'applicazione desktop per una piattaforma robotica per valutare e migliorare la postura e l'equilibrio degli utenti, sfruttando l'analisi automatizzata attraverso tre esercizi motori.",
       "techStack": ["C#", "Kinect"]
     }
   },
