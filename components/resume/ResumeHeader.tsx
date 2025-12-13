@@ -31,12 +31,9 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ header }) => {
           <h1 className="text-4xl font-bold text-gray-900 mb-1">
             {header.name}
           </h1>
-          <p className="text-lg text-gray-800 font-bold mb-3">
-            {header.title} <br />
-            {header.subTitle}
-          </p>
+          <p className="text-lg text-gray-800 font-bold mb-3">{header.title}</p>
 
-          <div className="flex flex-col gap-1 text-sm text-gray-700">
+          <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
             <div className="flex items-center gap-2">
               <MapPin size={14} />
               <span className="font-semibold">{header.contact.location}</span>
