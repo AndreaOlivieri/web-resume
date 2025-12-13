@@ -9,12 +9,12 @@ interface ResumeHeaderProps {
 export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ header }) => {
   return (
     <>
-      <header className="flex items-start gap-6 mb-6">
-        <div className="w-52 h-52 bg-gray-200 rounded-md flex-shrink-0 overflow-hidden border border-gray-300">
+      <header className="flex items-stretch gap-6 mb-6">
+        <div className="w-52 relative bg-gray-200 rounded-md flex-shrink-0 overflow-hidden border border-gray-300">
           <img
             src="/assets/profile_image.jpeg"
             alt={header.name}
-            className="w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
             onError={(e) => {
               (e.target as HTMLImageElement).style.display = "none";
               (e.target as HTMLImageElement).parentElement!.classList.add(
