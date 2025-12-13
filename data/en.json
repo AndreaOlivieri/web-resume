@@ -11,25 +11,25 @@
       "description": "I worked with several clients:",
       "projects": {
         "open_reply": {
-          "description": "I worked as Tech Lead on several PoCs for Open Reply, contributing to the design and development of innovative cross-platform applications. These applications stand out because the entire user interface is controlled by AI agents."
+          "description": "Served as Tech Lead on multiple proof-of-concept initiatives at Open Reply, leading the design and development of innovative cross-platform applications with AI agents orchestrating dynamic user interfaces"
         },
         "photosi": {
-          "description": "I worked on the PhotoSì project, contributing to the development of the client’s photo book editor for both mobile and web applications."
+          "description": "Contributed to the design and development of a feature-rich photo book editor for mobile and web, supporting complex layout and customization workflows."
         },
         "churchs": {
-          "description": "I worked on the Church’s project, contributing to the enhancement of the website’s user experience."
+          "description": "Contributed to enhancing Church's website user experience by implementing targeted features and optimizing usability, boosting user engagement and accessibility."
         },
         "mediaset": {
-          "description": "I worked on the Mediaset project, contributing to the development of a new Smart TV application that enables users to access movies, TV series, and live channels offered by Mediaset."
+          "description": "Contributed to the development of a new Smart TV application that enables users to access movies, TV series, and live channels offered by Mediaset."
         },
         "unipol": {
-          "description": "I worked on the UnipolSai project as Tech Lead and Frontend Expert, leading the design and development of a new micro-frontend architecture based on Module Federation and managing a dynamic team of over 10 developers."
+          "description": "Architected and delivered a modern micro-frontend platform based on Module Federation, providing technical leadership to a cross-functional team of 10+ developers."
         },
         "bat": {
-          "description": "I worked on the Vuse.com project, contributing to the development of a web application for managing and using the MyVuse electronic cigarette, as well as creating an interactive browser based on BLE technology."
+          "description": "Contributed to the development of a web application for managing MyVuse electronic cigarettes and created an interactive browser leveraging BLE technology."
         },
         "prada": {
-          "description": "I worked on the e-commerce projects of Prada, Miu Miu and Car Shoe."
+          "description": "Contributed to building and optimizing e-commerce solutions for luxury brands Prada, Miu Miu, and Car Shoe, improving user experience and platform performance."
         }
       }
     },
@@ -39,63 +39,63 @@
       "description": "I worked with several clients:",
       "projects": {
         "skoda": {
-          "description": "I worked on Škoda’s e-commerce platform, contributing to the development of a cutting-edge web solution. My role involved designing an engaging and user-friendly interface to enhance the overall user experience."
+          "description": "Contributed to Škoda’s e-commerce platform by developing a micro-frontend web solution and designing an intuitive, engaging interface to enhance the overall user experience."
         },
         "leonardo": {
-          "description": "I worked on the Euronaval project, contributing to the development of the web platform and designing an engaging, user-friendly interface to enhance the overall user experience."
+          "description": "Contributed to the development of Euronaval’s showcase website, designing an engaging and user-friendly interface to enhance overall user experience."
         },
         "egeos": {
-          "description": "I worked on the e-GEOS project, contributing to the design, construction, and development of CLEOS, a cutting-edge web platform."
+          "description": "Contributed to the front-end development of CLEOS, a multi-cloud web platform transforming e-GEOS’ geoinformation services. Built user-facing components for the digital marketplace and developer portal, leveraging modern web technologies to enhance usability and engagement"
         },
         "msc": {
-          "description": "I worked on the MSC Crociere website, contributing to the development and optimization of the web platform."
+          "description": "Contributed to building and optimizing MSC’s e-commerce marketplace web platform, delivering a seamless, high-performance user experience."
         }
       }
     },
     "social_academy": {
       "location": "Rome, Italy",
       "role": "Full-Stack developer | Business in Cloud's software architect | Software Engineer",
-      "description": "I designed, developed, and tested the software components of Social Academy’s platforms, including Marketplace (e-commerce for training courses), Skill Games (online quizzes to discover vocation and potential skills), MySA (access to course lessons and videos), Dashboard (management of academies, courses, leads, and email campaigns), and BusinessInCloud (marketing platform for creating funnels and landing pages). I also integrated numerous external services, such as Paypal, Stripe, Thrivecart, ClickFunnels, Mailchimp, Mailmunch, ActiveCampaign, Facebook, Calendly, Typeform, and Zapier."
+      "description": "Contributed to the design, development, and testing of Social Academy’s multi-platform ecosystem (Marketplace, Skill Games, MySA, Dashboard, BusinessInCloud), integrating numerous external tools (PayPal, Stripe, Mailchimp, Calendly, Typeform, Zapier) to deliver seamless e-learning and marketing experiences."
     },
     "nyu": {
       "location": "New York, USA",
       "role": "Internship | Software Developer",
       "logoText": "New York University",
-      "description": "I worked on the Terraling project, a collection of searchable linguistic databases that enables users to explore the morphological, syntactic, and semantic properties of languages and understand how these properties compare across different languages."
+      "description": "Contributed to the development of Terraling, a collection of searchable linguistic databases enabling users to explore and compare the morphological, syntactic, and semantic properties of multiple languages."
     },
     "the_city": {
       "location": "Rome, Italy",
       "role": "Full-Stack developer",
-      "description": "I worked for a real estate agency, developing its online marketplace."
+      "description": "Contributed to the design and development of a real estate agency’s online marketplace, delivering a seamless and user-friendly experience for clients and agents."
     },
     "innovaction_lab": {
       "location": "Rome, Italy",
       "role": "CTO | Full-Stack developer",
-      "description": "InnovAction Lab is a training program designed to transform innovative ideas into startups. My team and I created a startup called “Fashape”, aimed at helping users discover the best men’s fashion products through a daily wish list featuring the most voted items from social networks."
+      "description": "Participated in InnovAction Lab, a startup accelerator program, and co-created Fashape, a platform helping users discover top men’s fashion products through a daily wish list curated from social network trends."
     },
     "hsc": {
       "location": "Rome, Italy",
       "role": "Software Developer",
-      "description": "I collaborated on the development of the company’s enterprise software."
+      "description": "Supported the development and maintenance of HSC’s enterprise software, handling database migrations and resolving issues to enhance operational efficiency."
     },
     "istc": {
       "location": "Rome, Italy",
       "role": "Internship | Software Developer",
-      "description": "I developed a desktop application for a robotic platform designed to analyze a person’s posture and balance through three simple motor exercises."
+      "description": "Engineered a desktop application for a robotic platform to evaluate and enhance users’ posture and balance, leveraging automated analysis across three motor exercises."
     }
   },
   "education": {
     "state_exam": {
       "degree": "Government exam and licensed as a profession engineer",
-      "institution": "Roma Tre University - Rome, Italy"
+      "institution": "Università di Roma Tre - Rome, Italy"
     },
     "master": {
       "degree": "Master's Degree in Software Engineering",
-      "institution": "Roma Tre University - Rome, Italy"
+      "institution": "Università di Roma Tre - Rome, Italy"
     },
     "bachelor": {
       "degree": "Bachelor's Degree in Software Engineering",
-      "institution": "Roma Tre University - Rome, Italy"
+      "institution": "Università di Roma Tre - Rome, Italy"
     }
   },
   "skills": {
