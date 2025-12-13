@@ -3,7 +3,12 @@
     "title": "Tech Lead | Software Engineer | Senior Consultant",
     "location": "Rome, Italy"
   },
-  "summary": "Software Engineer with 10 years of experience in Web and Mobile development, specializing in scalable architecture design. Served as Tech Lead on complex projects, managing teams of 10+ developers and designing innovative solutions, including a next-generation micro-frontend architecture. Led multiple Proof of Concepts for cross-platform applications with user interfaces orchestrated by AI agents. Actively leverage advanced AI tools (e.g., Google Antigravity, Claude, ChatGPT) to accelerate development, optimize processes, and improve software quality. Continuously updated on modern frameworks, libraries, and methodologies, maintaining a strong focus on innovation and continuous improvement.",
+  "summary": [
+    "Software Engineer with 10 years of experience in Web and Mobile development, specializing in scalable architecture design. Certified in React.js and Front-end Development by Meta, with a strong focus on building high-performance, user-centric applications.",
+    "Served as Tech Lead on complex projects, overseeing development teams and spearheading the design of innovative solutions, including a next-generation micro-frontend architecture for a web platform and a cross-platform application with an AI agent orchestrating user interfaces.",
+    "Leveraged advanced AI tools (e.g., Google Antigravity, Claude, ChatGPT) to accelerate development, optimize processes, and enhance software quality.",
+    "Continuously updated on modern frameworks, libraries, and methodologies, maintaining a strong focus on innovation and continuous improvement."
+  ],
   "experience": {
     "open_reply": {
       "location": "Rome, Italy",

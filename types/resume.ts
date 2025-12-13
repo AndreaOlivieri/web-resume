@@ -3,7 +3,7 @@ export interface ResumeData {
     name: string;
     title: string;
     subTitle: string;
-    summary: string;
+    summary: string[];
     contact: {
       location: string;
       email: string;

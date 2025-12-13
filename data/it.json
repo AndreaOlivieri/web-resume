@@ -3,7 +3,12 @@
     "title": "Tech Lead | Ingegnere Informatico | Senior Consultant",
     "location": "Roma, Italia"
   },
-  "summary": "Ingegnere Informatico con 10 anni di esperienza nello sviluppo Web e Mobile e una solida specializzazione nella progettazione di architetture scalabili. Ho ricoperto il ruolo di Tech Lead in progetti complessi, guidando team di oltre 10 sviluppatori e progettando soluzioni innovative, tra cui un’architettura micro-frontend di nuova generazione. Ho coordinato diversi Proof of Concept per applicazioni cross-platform basate su interfacce utente orchestrate da agenti di intelligenza artificiale. Integro attivamente tecnologie avanzate di AI (es. Google Antigravity, Claude, ChatGPT) nei processi di sviluppo per aumentare produttività, qualità del software e time-to-market. Costantemente aggiornato su framework, librerie e metodologie moderne, mantengo un approccio orientato all'innovazione e al miglioramento continuo.",
+  "summary": [
+    "Ingegnere del Software con 10 anni di esperienza nello sviluppo Web e Mobile, specializzato nella progettazione di architetture scalabili. Certificato in React.js e Sviluppo Front-end da Meta, con un forte focus sulla realizzazione di applicazioni ad alte prestazioni e orientate all’utente.",
+    "Ho ricoperto il ruolo di Tech Lead in progetti complessi, supervisionando team di sviluppo e guidando la progettazione di soluzioni innovative, tra cui un’architettura micro-frontend di nuova generazione per una piattaforma web e un’applicazione cross-platform con un agente AI che orchestra le interfacce utente.",
+    "Utilizzo tecnologie avanzate di intelligenza artificiale (es. Google Antigravity, Claude, ChatGPT) per accelerare lo sviluppo, ottimizzare i processi e migliorare la qualità del software.",
+    "Costantemente aggiornato su framework, librerie e metodologie moderne, mantenendo un forte focus sull'innovazione e il miglioramento continuo."
+  ],
   "experience": {
     "open_reply": {
       "location": "Roma, Italia",

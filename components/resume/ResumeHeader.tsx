@@ -60,9 +60,11 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ header }) => {
         </div>
       </header>
       <section className="mb-6">
-        <p className="text-xs text-gray-800 leading-relaxed text-justify font-medium">
-          {header.summary}
-        </p>
+        <ul className="text-xs text-gray-800 leading-relaxed text-justify font-medium list-disc ml-4 space-y-1">
+          {header.summary.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </section>
     </>
   );
