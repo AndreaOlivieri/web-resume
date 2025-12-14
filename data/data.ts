@@ -59,7 +59,7 @@ export const resumeData = {
         {
           company: "Unipol",
           logoText: "Unipol",
-          logo: "/assets/logo_unipol.svg",
+          logo: "/assets/unipol.svg",
           description: "experience.open_reply.projects.unipol.description",
           techStack: [
             "React.js",
@@ -82,7 +82,7 @@ export const resumeData = {
         {
           company: "Prada",
           logoText: "PRADA",
-          logo: "/assets/prada.png",
+          logo: "/assets/prada.svg",
           description: "experience.open_reply.projects.prada.description",
           techStack: ["Typescript", "jQuery"],
         },
@@ -95,7 +95,7 @@ export const resumeData = {
       endDate: "2021-02",
       role: "experience.accenture.role",
       logoText: "accenture",
-      logo: "/assets/accenture.jpeg",
+      logo: "/assets/accenture.png",
       description: "experience.accenture.description",
       projects: [
         {
