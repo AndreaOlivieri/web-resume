@@ -35,12 +35,12 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ header }) => {
 
           <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
             <div className="flex items-center gap-2">
-              <MapPin size={14} />
-              <span className="font-semibold">{header.contact.location}</span>
-            </div>
-            <div className="flex items-center gap-2">
               <Mail size={14} />
               <span className="font-semibold">{header.contact.email}</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Linkedin size={14} />
+              <span className="font-semibold">{header.contact.linkedin}</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone size={14} />
@@ -50,12 +50,10 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ header }) => {
               <Github size={14} />
               <span className="font-semibold">{header.contact.github}</span>
             </div>
-            {header.contact.linkedin && (
-              <div className="flex items-center gap-2">
-                <Linkedin size={14} />
-                <span className="font-semibold">{header.contact.linkedin}</span>
-              </div>
-            )}
+            <div className="flex items-center gap-2">
+              <MapPin size={14} />
+              <span className="font-semibold">{header.contact.location}</span>
+            </div>
           </div>
         </div>
       </header>
