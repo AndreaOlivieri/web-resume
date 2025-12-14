@@ -3,8 +3,6 @@ import { ResumeData } from "../types/resume";
 import { ResumeHeader } from "./resume/ResumeHeader";
 import { ResumeExperience } from "./resume/ResumeExperience";
 import { ResumeEducation } from "./resume/ResumeEducation";
-import { ResumeSkills } from "./resume/ResumeSkills";
-import { ResumeLanguages } from "./resume/ResumeLanguages";
 import { ResumeCertifications } from "./resume/ResumeCertifications";
 
 interface ResumeProps {
@@ -37,7 +35,7 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
             boxSizing: "border-box",
           }}
         >
-          <ResumeHeader header={header} />
+          <ResumeHeader header={header} languages={languages} />
           <ResumeExperience
             experience={experience}
             label={labels.experience}
@@ -48,8 +46,6 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
             label={labels.education}
             language={language}
           />
-          {/* <ResumeSkills skills={skills} label={labels.skills} /> */}
-          {/* <ResumeLanguages languages={languages} label={labels.languages} /> */}
           <ResumeCertifications
             certifications={certifications}
             label={labels.certifications}

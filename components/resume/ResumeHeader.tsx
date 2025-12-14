@@ -1,12 +1,16 @@
 import React from "react";
-import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Languages } from "lucide-react";
 import { ResumeData } from "../../types/resume";
 
 interface ResumeHeaderProps {
   header: ResumeData["header"];
+  languages: ResumeData["languages"];
 }
 
-export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ header }) => {
+export const ResumeHeader: React.FC<ResumeHeaderProps> = ({
+  header,
+  languages,
+}) => {
   return (
     <>
       <header className="flex items-stretch gap-6 mb-6">
@@ -27,32 +31,42 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({ header }) => {
             }}
           />
         </div>
-        <div className="flex-1">
-          <h1 className="text-4xl font-bold text-gray-900 mb-1">
-            {header.name}
-          </h1>
-          <p className="text-lg text-gray-800 font-bold mb-3">{header.title}</p>
+        <div className="flex-1 flex flex-col justify-between">
+          <div>
+            <h1 className="text-4xl font-bold text-gray-900 mb-1">
+              {header.name}
+            </h1>
+            <p className="text-lg text-gray-800 font-bold mb-3">
+              {header.title}
+            </p>
 
-          <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
-            <div className="flex items-center gap-2">
-              <Mail size={14} />
-              <span className="font-semibold">{header.contact.email}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Linkedin size={14} />
-              <span className="font-semibold">{header.contact.linkedin}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Phone size={14} />
-              <span className="font-semibold">{header.contact.phone}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Github size={14} />
-              <span className="font-semibold">{header.contact.github}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <MapPin size={14} />
-              <span className="font-semibold">{header.contact.location}</span>
+            <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
+              <div className="flex items-center gap-2">
+                <Mail size={14} />
+                <span className="font-semibold">{header.contact.email}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Linkedin size={14} />
+                <span className="font-semibold">{header.contact.linkedin}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Phone size={14} />
+                <span className="font-semibold">{header.contact.phone}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Github size={14} />
+                <span className="font-semibold">{header.contact.github}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MapPin size={14} />
+                <span className="font-semibold">{header.contact.location}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Languages size={14} />
+                <span className="font-semibold">
+                  {languages.map((lang) => `${lang.name}`).join(" • ")}
+                </span>
+              </div>
             </div>
           </div>
         </div>
