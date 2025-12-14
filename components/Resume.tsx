@@ -35,7 +35,11 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
             boxSizing: "border-box",
           }}
         >
-          <ResumeHeader header={header} languages={languages} />
+          <ResumeHeader
+            header={header}
+            languages={languages}
+            softSkills={skills.soft.items}
+          />
           <ResumeExperience
             experience={experience}
             label={labels.experience}
@@ -63,4 +67,3 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
 );
 
 Resume.displayName = "Resume";
-

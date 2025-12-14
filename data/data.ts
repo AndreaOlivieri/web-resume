@@ -226,8 +226,8 @@ export const resumeData = {
       institution: "education.bachelor.institution",
     },
   ],
-  skills: [
-    {
+  skills: {
+    industry: {
       category: "skills.industry.category",
       items: [
         "skills.industry.items.0",
@@ -241,11 +241,11 @@ export const resumeData = {
         "skills.industry.items.8",
       ],
     },
-    {
+    mobile: {
       category: "skills.mobile.category",
       items: ["React Native", "Expo"],
     },
-    {
+    frontend: {
       category: "skills.frontend.category",
       items: [
         "HTML5",
@@ -279,7 +279,7 @@ export const resumeData = {
         "Storybook",
       ],
     },
-    {
+    backend: {
       category: "skills.backend.category",
       items: [
         "Node.js",
@@ -292,15 +292,15 @@ export const resumeData = {
         "Server Side Rendering",
       ],
     },
-    {
+    database: {
       category: "skills.database.category",
       items: ["PostgreSQL", "MySQL"],
     },
-    {
+    languages: {
       category: "skills.languages.category",
       items: ["Python", "Ruby", "Java"],
     },
-    {
+    soft: {
       category: "skills.soft.category",
       items: [
         "skills.soft.items.0",
@@ -312,7 +312,7 @@ export const resumeData = {
         "skills.soft.items.6",
       ],
     },
-    {
+    tools: {
       category: "skills.tools.category",
       items: [
         "Postman",
@@ -330,7 +330,7 @@ export const resumeData = {
         "Bash Shell",
       ],
     },
-  ],
+  },
   languages: [
     { name: "languages.italian.name", level: "languages.italian.level" },
     { name: "languages.english.name", level: "languages.english.level" },

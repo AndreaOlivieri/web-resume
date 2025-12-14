@@ -1,15 +1,26 @@
 import React from "react";
-import { Mail, Phone, MapPin, Github, Linkedin, Languages } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Github,
+  Linkedin,
+  Languages,
+  Sparkles,
+} from "lucide-react";
 import { ResumeData } from "../../types/resume";
+import { TechStack } from "./TechStack";
 
 interface ResumeHeaderProps {
   header: ResumeData["header"];
   languages: ResumeData["languages"];
+  softSkills?: string[];
 }
 
 export const ResumeHeader: React.FC<ResumeHeaderProps> = ({
   header,
   languages,
+  softSkills,
 }) => {
   return (
     <>
@@ -77,6 +88,7 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({
             <li key={index}>{item}</li>
           ))}
         </ul>
+        {softSkills && <TechStack items={softSkills} />}
       </section>
     </>
   );

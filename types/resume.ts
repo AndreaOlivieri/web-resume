@@ -42,10 +42,40 @@ export interface ResumeData {
     level?: string;
     logo?: string;
   }>;
-  skills: Array<{
-    category: string;
-    items: string[];
-  }>;
+  skills: {
+    industry: {
+      category: string;
+      items: string[];
+    };
+    mobile: {
+      category: string;
+      items: string[];
+    };
+    frontend: {
+      category: string;
+      items: string[];
+    };
+    backend: {
+      category: string;
+      items: string[];
+    };
+    database: {
+      category: string;
+      items: string[];
+    };
+    languages: {
+      category: string;
+      items: string[];
+    };
+    soft: {
+      category: string;
+      items: string[];
+    };
+    tools: {
+      category: string;
+      items: string[];
+    };
+  };
   languages: Array<{
     name: string;
     level: string;
