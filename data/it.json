@@ -74,7 +74,7 @@
     },
     "nyu": {
       "location": "New York, USA",
-      "role": "Tirocinio",
+      "role": "Sviluppatore Software | Tirocinio",
       "logoText": "Università di New York",
       "description": "Ho contribuito allo sviluppo di Terraling, una collezione di database linguistici consultabili che consente agli utenti di esplorare e confrontare le proprietà morfologiche, sintattiche e semantiche di più lingue.",
       "techStack": [
@@ -118,7 +118,7 @@
     },
     "istc": {
       "location": "Roma, Italia",
-      "role": "Tirocinio",
+      "role": "Sviluppatore Software | Tirocinio",
       "description": "Ho ingegnerizzato un'applicazione desktop per una piattaforma robotica per valutare e migliorare la postura e l'equilibrio degli utenti, sfruttando l'analisi automatizzata attraverso tre esercizi motori.",
       "techStack": ["C#", "Kinect"]
     }

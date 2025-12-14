@@ -210,19 +210,16 @@ export const resumeData = {
   ],
   education: [
     {
-      startDate: "2017",
       endDate: "2017",
       degree: "education.state_exam.degree",
       institution: "education.state_exam.institution",
     },
     {
-      startDate: "2013-01",
       endDate: "2017-03",
       degree: "education.master.degree",
       institution: "education.master.institution",
     },
     {
-      startDate: "2009-10",
       endDate: "2013-07",
       degree: "education.bachelor.degree",
       institution: "education.bachelor.institution",
