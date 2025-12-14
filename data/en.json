@@ -134,16 +134,7 @@
       "category": "Programming Languages"
     },
     "soft": {
-      "category": "Soft Skills",
-      "items": [
-        "Problem Solving",
-        "Critical Thinking",
-        "Time Management",
-        "Teamwork",
-        "Self Learning",
-        "Analytical reasoning",
-        "Adaptability"
-      ]
+      "category": "Soft Skills"
     },
     "tools": {
       "category": "Development Tools"

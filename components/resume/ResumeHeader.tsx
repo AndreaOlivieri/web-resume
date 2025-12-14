@@ -9,7 +9,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { ResumeData } from "../../types/resume";
-import { TechStack } from "./TechStack";
+import { Tags } from "./Tags";
 
 interface ResumeHeaderProps {
   header: ResumeData["header"];
@@ -88,7 +88,7 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({
             <li key={index}>{item}</li>
           ))}
         </ul>
-        {softSkills && <TechStack items={softSkills} />}
+        {softSkills && <Tags items={softSkills} />}
       </section>
     </>
   );

@@ -1,12 +1,12 @@
 import React from "react";
 
-interface TechStackProps {
+interface TagsProps {
   items: string[];
   className?: string; // Allow overriding the container styles if needed
   size?: "sm" | "xs"; // Optional: size prop for future flexibility, defaulting to xs as per current usage
 }
 
-export const TechStack: React.FC<TechStackProps> = ({
+export const Tags: React.FC<TagsProps> = ({
   items,
   className = "",
   size = "xs",

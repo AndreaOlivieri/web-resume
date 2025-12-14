@@ -1,7 +1,7 @@
 import React from "react";
 import { ResumeData } from "../../types/resume";
 import { formatPeriod } from "../../utils/date";
-import { TechStack } from "./TechStack";
+import { Tags } from "./Tags";
 
 interface ResumeExperienceProps {
   experience: ResumeData["experience"];
@@ -60,7 +60,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
               {job.description}
             </p>
             {job.techStack && job.techStack.length > 0 && (
-              <TechStack items={job.techStack} />
+              <Tags items={job.techStack} />
             )}
             <div className="clear-both"></div>
 
@@ -90,7 +90,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                       {project.description}
                     </p>
                     {project.techStack && project.techStack.length > 0 && (
-                      <TechStack items={project.techStack} className="mt-1.5" />
+                      <Tags items={project.techStack} className="mt-1.5" />
                     )}
                     <div className="clear-both"></div>
                   </div>
