@@ -213,6 +213,7 @@ export const resumeData = {
       endDate: "2017",
       degree: "education.state_exam.degree",
       institution: "education.state_exam.institution",
+      logo: "/assets/roma_tre_university.svg",
     },
     {
       endDate: "2017-03",

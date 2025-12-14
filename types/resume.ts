@@ -40,6 +40,7 @@ export interface ResumeData {
     degree: string;
     institution: string;
     level?: string;
+    logo?: string;
   }>;
   skills: Array<{
     category: string;
