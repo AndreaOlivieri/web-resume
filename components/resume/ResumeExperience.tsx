@@ -15,7 +15,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
   language,
 }) => {
   return (
-    <section>
+    <section className="pt-3 pb-3">
       <h2 className="text-base font-bold text-gray-900 flex items-center justify-center gap-4 before:h-px before:bg-gradient-to-r before:from-transparent before:to-gray-300 before:flex-1 after:h-px after:bg-gradient-to-l after:from-transparent after:to-gray-300 after:flex-1 uppercase tracking-wider">
         {label}
       </h2>
@@ -24,7 +24,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
         {experience.map((job, index) => (
           <div
             key={index}
-            className={`relative pt-2 pb-2 border-b border-gray-200 last:border-0 ${
+            className={`relative pt-3 pb-3 border-b border-gray-200 last:border-0 ${
               !job.projects ? "break-inside-avoid" : ""
             }`}
           >
@@ -70,8 +70,8 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                 {job.projects.map((project, pIndex) => (
                   <div
                     key={pIndex}
-                    className={`relative break-inside-avoid ${
-                      pIndex !== 0 ? "pt-4" : "pt-1"
+                    className={`relative break-inside-avoid pb-3 ${
+                      pIndex !== 0 ? "pt-3" : "pt-1"
                     }`}
                   >
                     {project.logo && (

@@ -24,7 +24,7 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({
 }) => {
   return (
     <>
-      <header className="flex items-stretch gap-6 mb-6">
+      <header className="flex items-stretch gap-6 mb-3">
         <div className="w-52 relative bg-gray-200 rounded-md flex-shrink-0 overflow-hidden border border-gray-300">
           <img
             src="/assets/profile_image.jpeg"
@@ -82,7 +82,7 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({
           </div>
         </div>
       </header>
-      <section className="mb-6">
+      <section className="mb-3">
         <ul className="text-xs text-gray-800 leading-relaxed text-justify font-medium list-disc ml-4 space-y-1">
           {header.summary.map((item, index) => (
             <li key={index}>{item}</li>

@@ -27,11 +27,10 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
       <div className="w-full flex justify-center bg-gray-100 p-8 print:p-0">
         <div
           ref={ref}
-          className="bg-white shadow-lg print:shadow-none text-black relative"
+          className="bg-white shadow-lg print:shadow-none text-black relative pt-3 pb-3 pl-6 pr-6"
           style={{
             width: "210mm",
             minHeight: "297mm",
-            padding: "10mm",
             boxSizing: "border-box",
           }}
         >
@@ -57,7 +56,7 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
           />
 
           {/* Footer Note */}
-          <div className="mt-8 pt-4 border-t border-gray-300 text-[10px] text-gray-500 text-center">
+          <div className="pb-3 text-[10px] text-gray-500 text-center">
             {footer.note}
           </div>
         </div>
