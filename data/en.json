@@ -18,8 +18,14 @@
         "open_reply": {
           "description": "Served as Tech Lead on multiple proof-of-concept initiatives at Open Reply, leading the design and development of innovative cross-platform applications with AI agents orchestrating dynamic user interfaces"
         },
+        "atm": {
+          "description": "Spearheaded the development of a new ATM platform, enhancing performance and user experience for more efficient and intuitive interactions"
+        },
         "photosi": {
           "description": "Contributed to the design and development of a feature-rich photo book editor for mobile and web, supporting complex layout and customization workflows."
+        },
+        "chorus_life": {
+          "description": "Contributed to the development of the new ChorusLife.com website for COSTIM, implementing targeted features and improving usability to enhance user engagement and accessibility"
         },
         "churchs": {
           "description": "Contributed to enhancing Church's website user experience by implementing targeted features and optimizing usability, boosting user engagement and accessibility."
