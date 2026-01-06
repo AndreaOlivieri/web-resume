@@ -52,22 +52,32 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({
             </p>
 
             <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
-              <div className="flex items-center gap-2">
-                <Mail size={14} />
-                <span className="font-semibold">{header.contact.email}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Linkedin size={14} />
-                <span className="font-semibold">{header.contact.linkedin}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Phone size={14} />
-                <span className="font-semibold">{header.contact.phone}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Github size={14} />
-                <span className="font-semibold">{header.contact.github}</span>
-              </div>
+              {header.contact.email && (
+                <div className="flex items-center gap-2">
+                  <Mail size={14} />
+                  <span className="font-semibold">{header.contact.email}</span>
+                </div>
+              )}
+              {header.contact.linkedin && (
+                <div className="flex items-center gap-2">
+                  <Linkedin size={14} />
+                  <span className="font-semibold">
+                    {header.contact.linkedin}
+                  </span>
+                </div>
+              )}
+              {header.contact.phone && (
+                <div className="flex items-center gap-2">
+                  <Phone size={14} />
+                  <span className="font-semibold">{header.contact.phone}</span>
+                </div>
+              )}
+              {header.contact.github && (
+                <div className="flex items-center gap-2">
+                  <Github size={14} />
+                  <span className="font-semibold">{header.contact.github}</span>
+                </div>
+              )}
               <div className="flex items-center gap-2">
                 <MapPin size={14} />
                 <span className="font-semibold">{header.contact.location}</span>

@@ -9,10 +9,10 @@ import enTranslations from "../data/en.json";
 import { resumeData } from "../data/data";
 
 const contactInfo = {
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "",
-  phone: process.env.NEXT_PUBLIC_CONTACT_PHONE || "",
-  github: process.env.NEXT_PUBLIC_CONTACT_GITHUB || "",
-  linkedin: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || "",
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL,
+  phone: process.env.NEXT_PUBLIC_CONTACT_PHONE,
+  github: process.env.NEXT_PUBLIC_CONTACT_GITHUB,
+  linkedin: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN,
 };
 
 // Helper function to get value from object by dot notation path
