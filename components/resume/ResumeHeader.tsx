@@ -51,7 +51,7 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({
               {header.title}
             </p>
 
-            <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
               {header.contact.email && (
                 <div className="flex items-center gap-2">
                   <Mail size={14} />
