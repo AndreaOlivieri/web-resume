@@ -58,3 +58,5 @@ export const getLocaleCode = (language: Locale): string => {
 export const getTranslations = (language: Locale): any => {
   return language === "it" ? itTranslations : enTranslations;
 };
+
+export const DEFAULT_LANGUAGE: Locale = "en";

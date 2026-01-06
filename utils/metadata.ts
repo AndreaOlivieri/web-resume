@@ -53,9 +53,7 @@ export const getMetaData = (language: Locale): Metadata => {
       url: process.env.NEXT_PUBLIC_URL || "https://andrea-olivieri.vercel.app",
       title: title,
       description: description,
-      siteName: `${resumeData.header.name} ${
-        language === "it" ? "CV" : "Resume"
-      }`,
+      siteName: `${resumeData.header.name} ${resumeData.resume}`,
       images: [
         {
           url: "/assets/profile_image.jpeg",

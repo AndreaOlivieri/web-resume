@@ -6,10 +6,11 @@ import { Resume } from "@/components/Resume";
 import { Menu } from "@/components/Menu";
 import { translatedDataBy } from "../data/data";
 import { Locale } from "@/types/locale";
+import { DEFAULT_LANGUAGE } from "@/utils/i18n";
 
 export default function Home() {
   const resumeRef = useRef<HTMLDivElement>(null);
-  const [language, setLanguage] = useState<Locale>("it");
+  const [language, setLanguage] = useState<Locale>(DEFAULT_LANGUAGE);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handlePrint = useReactToPrint({
