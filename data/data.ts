@@ -1,3 +1,6 @@
+import { Locale } from "@/types/locale";
+import { getTranslations, translateData } from "@/utils/i18n";
+
 export const resumeData = {
   header: {
     name: "Andrea Olivieri",
@@ -6,6 +9,10 @@ export const resumeData = {
     summary: "summary",
     contact: {
       location: "header.location",
+      email: process.env.NEXT_PUBLIC_CONTACT_EMAIL,
+      phone: process.env.NEXT_PUBLIC_CONTACT_PHONE,
+      github: process.env.NEXT_PUBLIC_CONTACT_GITHUB,
+      linkedin: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN,
     },
   },
   experience: [
@@ -399,4 +406,9 @@ export const resumeData = {
     languages: "labels.languages",
     certifications: "labels.certifications",
   },
+};
+
+export const translatedDataBy = (language: Locale) => {
+  const translations = getTranslations(language);
+  return translateData(resumeData, translations);
 };

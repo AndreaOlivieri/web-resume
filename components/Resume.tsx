@@ -4,10 +4,11 @@ import { ResumeHeader } from "./resume/ResumeHeader";
 import { ResumeExperience } from "./resume/ResumeExperience";
 import { ResumeEducation } from "./resume/ResumeEducation";
 import { ResumeCertifications } from "./resume/ResumeCertifications";
+import { Locale } from "@/types/locale";
 
-interface ResumeProps {
+export interface ResumeProps {
   data: ResumeData;
-  language: "it" | "en";
+  language: Locale;
 }
 
 export const Resume = forwardRef<HTMLDivElement, ResumeProps>(

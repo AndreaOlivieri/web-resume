@@ -1,11 +1,12 @@
 import React from "react";
 import { Download } from "lucide-react";
+import { Locale } from "@/types/locale";
 
 interface MenuProps {
   isOpen: boolean;
   onClose: () => void;
-  language: "it" | "en";
-  setLanguage: (lang: "it" | "en") => void;
+  language: Locale;
+  setLanguage: (lang: Locale) => void;
   onPrint: () => void;
 }
 

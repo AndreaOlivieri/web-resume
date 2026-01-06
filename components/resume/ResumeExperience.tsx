@@ -2,11 +2,12 @@ import React from "react";
 import { ResumeData } from "../../types/resume";
 import { formatPeriod } from "../../utils/date";
 import { Tags } from "./Tags";
+import { Locale } from "../../types/locale";
 
 interface ResumeExperienceProps {
   experience: ResumeData["experience"];
   label: string;
-  language: "it" | "en";
+  language: Locale;
 }
 
 export const ResumeExperience: React.FC<ResumeExperienceProps> = ({

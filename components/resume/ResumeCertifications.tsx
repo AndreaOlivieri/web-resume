@@ -1,11 +1,12 @@
 import React from "react";
 import { ResumeData } from "../../types/resume";
 import { formatPeriod } from "../../utils/date";
+import { Locale } from "../../types/locale";
 
 interface ResumeCertificationsProps {
   certifications: ResumeData["certifications"];
   label: string;
-  language: "it" | "en";
+  language: Locale;
 }
 
 export const ResumeCertifications: React.FC<ResumeCertificationsProps> = ({

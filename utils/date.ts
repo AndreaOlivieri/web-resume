@@ -1,33 +1,28 @@
-import itTranslations from "../data/it.json";
-import enTranslations from "../data/en.json";
+import { Locale } from "@/types/locale";
+import { getLocaleCode, getTranslations } from "./i18n";
 
 export const formatPeriod = (
   startDate: string | undefined,
   endDate: string | null | undefined,
-  language: "it" | "en"
+  language: Locale
 ): string | undefined => {
-  const translations = language === "it" ? itTranslations : enTranslations;
+  const translations = getTranslations(language);
+  const localeCode = getLocaleCode(language);
 
   const start = startDate ? new Date(startDate) : null;
   const end = endDate ? new Date(endDate) : startDate ? new Date() : null;
 
-  const startStr = start?.toLocaleDateString(
-    language === "it" ? "it-IT" : "en-US",
-    {
-      month: "short",
-      year: "numeric",
-    }
-  );
+  const startStr = start?.toLocaleDateString(localeCode, {
+    month: "short",
+    year: "numeric",
+  });
 
   let endStr;
   if (endDate) {
-    endStr = new Date(endDate).toLocaleDateString(
-      language === "it" ? "it-IT" : "en-US",
-      {
-        month: "short",
-        year: "numeric",
-      }
-    );
+    endStr = new Date(endDate).toLocaleDateString(localeCode, {
+      month: "short",
+      year: "numeric",
+    });
   } else if (startDate) {
     endStr = translations.dates.present;
   }
