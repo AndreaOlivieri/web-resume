@@ -91,7 +91,7 @@ export default function Home() {
   const translatedData = translateData(dataWithContact, translations);
 
   return (
-    <div className="min-h-screen bg-gray-900 flex flex-col items-center py-10 relative overflow-hidden">
+    <div className="min-h-screen bg-white md:bg-gray-900 flex flex-col items-center py-0 md:py-10 relative overflow-hidden">
       {/* Menu Toggle Button */}
       <button
         onClick={() => setIsMenuOpen(true)}
@@ -123,7 +123,7 @@ export default function Home() {
       />
 
       {/* Resume Display Area */}
-      <div className="overflow-auto w-full flex justify-center px-0 md:px-4 pb-10">
+      <div className="overflow-auto w-full flex justify-center px-0 md:px-4 md:pb-10">
         <div className="w-full md:w-auto transform origin-top transition-transform duration-300">
           <Resume ref={resumeRef} data={translatedData} language={language} />
         </div>
