@@ -25,7 +25,7 @@ export const ResumeEducation: React.FC<ResumeEducationProps> = ({
           return (
             <div key={index} className="relative">
               {edu.logo && (
-                <div className="float-right w-20 h-6 flex items-center justify-center ml-3 mb-2">
+                <div className="float-right w-16 h-8 md:w-20 md:h-6 print:w-20 print:h-6 flex items-center justify-center ml-3 mb-2">
                   <img
                     src={edu.logo}
                     alt={edu.institution}

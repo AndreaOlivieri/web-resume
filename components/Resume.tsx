@@ -27,12 +27,7 @@ export const Resume = forwardRef<HTMLDivElement, ResumeProps>(
       <div className="w-full flex justify-center bg-gray-100 p-8 print:p-0">
         <div
           ref={ref}
-          className="bg-white shadow-lg print:shadow-none text-black relative pt-5 pb-5 pl-5 pr-5"
-          style={{
-            width: "210mm",
-            minHeight: "297mm",
-            boxSizing: "border-box",
-          }}
+          className="bg-white shadow-lg print:shadow-none text-black relative pt-5 pb-5 pl-5 pr-5 w-full max-w-[210mm] min-h-screen md:min-h-[297mm] print:w-[210mm] print:min-h-[297mm] box-border"
         >
           <ResumeHeader
             header={header}

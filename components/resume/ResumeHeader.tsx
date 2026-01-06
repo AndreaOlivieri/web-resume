@@ -24,8 +24,8 @@ export const ResumeHeader: React.FC<ResumeHeaderProps> = ({
 }) => {
   return (
     <>
-      <header className="flex items-stretch gap-6 mb-4">
-        <div className="w-52 relative bg-gray-200 rounded-md flex-shrink-0 overflow-hidden border border-gray-300">
+      <header className="flex flex-col md:flex-row print:flex-row items-stretch gap-6 mb-4">
+        <div className="w-full md:w-52 print:w-52 relative bg-gray-200 rounded-md flex-shrink-0 overflow-hidden border border-gray-300 h-64 md:h-auto print:h-auto">
           <img
             src="/assets/profile_image.jpeg"
             alt={header.name}

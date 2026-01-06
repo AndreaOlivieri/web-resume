@@ -29,7 +29,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
             }`}
           >
             {(job.logo || job.logoText) && (
-              <div className="float-right w-20 h-10 flex items-center justify-center ml-3 mb-2">
+              <div className="float-right w-16 h-8 md:w-20 md:h-10 print:w-20 print:h-10 flex items-center justify-center ml-3 mb-2">
                 {job.logo ? (
                   <img
                     src={job.logo}
@@ -43,9 +43,9 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                 )}
               </div>
             )}
-            <h3 className="font-bold text-gray-900 text-sm mb-0.5 flex items-baseline gap-2">
+            <h3 className="font-bold text-gray-900 text-sm mb-0.5 flex flex-col md:flex-row print:flex-row md:items-baseline print:items-baseline gap-1 md:gap-2 print:gap-2">
               <span className="text-base">{job.company}</span>
-              <span className="text-xs text-gray-600 font-medium whitespace-nowrap">
+              <span className="text-xs text-gray-600 font-medium">
                 {`${
                   job.location ? "• " + job.location + " • " : ""
                 }${formatPeriod(job.startDate, job.endDate, language)}`}
@@ -75,7 +75,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                     }`}
                   >
                     {project.logo && (
-                      <div className="float-right w-20 h-10 flex items-center justify-center ml-3 mb-2">
+                      <div className="float-right w-16 h-8 md:w-20 md:h-10 print:w-20 print:h-10 flex items-center justify-center ml-3 mb-2">
                         <img
                           src={project.logo}
                           alt={project.company}
@@ -83,7 +83,7 @@ export const ResumeExperience: React.FC<ResumeExperienceProps> = ({
                         />
                       </div>
                     )}
-                    <h4 className="font-semibold text-gray-800 text-sm mb-0.5 flex items-baseline gap-2">
+                    <h4 className="font-semibold text-gray-800 text-sm mb-0.5 flex flex-col md:flex-row print:flex-row md:items-baseline print:items-baseline gap-1 md:gap-2 print:gap-2">
                       {project.company}
                     </h4>
                     <p className="text-xs text-gray-700 mt-0.5 leading-relaxed whitespace-pre-line">
